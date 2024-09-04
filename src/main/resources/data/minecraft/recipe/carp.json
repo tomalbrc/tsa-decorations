@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "minecraft:polished_andesite"
+    },
+    "ingredient": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:stone",
+        "count": 4
+    }
+}
