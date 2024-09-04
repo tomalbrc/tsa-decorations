@@ -1,0 +1,13 @@
+{
+  "id": "tsa:darkoak_dresser",
+  "model": "minecraft:custom/furniture/boards/darkoak_dresser",
+  "properties": {
+    "rotate": true
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,2,1]
+    }
+  ]
+}

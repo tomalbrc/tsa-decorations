@@ -1,0 +1,8 @@
+{
+  "id": "tsa:darkoak_globe",
+  "model": "minecraft:custom/furniture/misc/darkoak_globe",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true
+  }
+}

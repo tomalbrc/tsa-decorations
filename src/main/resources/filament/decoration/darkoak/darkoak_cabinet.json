@@ -1,0 +1,13 @@
+{
+  "id": "tsa:darkoak_cabinet",
+  "model": "minecraft:custom/furniture/boards/darkoak_cabinet",
+  "properties": {
+    "rotate": true
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,2,1]
+    }
+  ]
+}

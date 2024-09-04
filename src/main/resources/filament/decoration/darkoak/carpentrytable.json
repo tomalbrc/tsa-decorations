@@ -1,0 +1,16 @@
+{
+  "id": "tsa:carpentry_table",
+  "model": "minecraft:custom/furniture/tables/carpentry_table",
+  "properties": {
+    "rotate": true
+  },
+  "behaviour": {
+    "carpentry": {}
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,1,1]
+    }
+  ]
+}

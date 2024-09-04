@@ -1,0 +1,25 @@
+{
+  "id": "tsa:darkoak_chest",
+  "model": "minecraft:custom/furniture/chests/darkoak_chest",
+  "properties": {
+    "rotate": true
+  },
+  "behaviour": {
+    "animation": {
+      "model": "tsa:stabilizer"
+    },
+    "container": {
+      "name": "Dark Oak Chest",
+      "size": 36,
+      "purge": false,
+      "openAnimation": "open",
+      "closeAnimation": "close"
+    }
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,1,1]
+    }
+  ]
+}

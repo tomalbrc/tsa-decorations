@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tsa-dof",
+  "version": "${version}",
+  "name": "tsa-dof",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/tomalbrc/tsa-dof"
+  },
+  "license": "MIT",
+  "icon": "tsa-dof-icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.tomalbrc.tsadof.TSADOF"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.21",
+    "filament": ">=0.7.3"
+  }
+}

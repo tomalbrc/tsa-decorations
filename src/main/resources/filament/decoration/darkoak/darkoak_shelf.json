@@ -1,0 +1,41 @@
+{
+  "id": "tsa:darkoak_shelf",
+  "model": "minecraft:custom/furniture/shelves/darkoak_shelf",
+  "properties": {
+    "rotate": true
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,3,1]
+    }
+  ],
+  "behaviour": {
+    "showcase": [
+      {
+        "offset": [0.2, 0.449, 0],
+        "scale": [0.45, 0.45, 0.45]
+      },
+      {
+        "offset": [0.2, 1.135, 0],
+        "scale": [0.45, 0.45, 0.45]
+      },
+      {
+        "offset": [0.2, 1.885, 0],
+        "scale": [0.45, 0.45, 0.45]
+      },
+      {
+        "offset": [0.8, 0.449, 0],
+        "scale": [0.45, 0.45, 0.45]
+      },
+      {
+        "offset": [0.8, 1.135, 0],
+        "scale": [0.45, 0.45, 0.45]
+      },
+      {
+        "offset": [0.8, 1.885, 0],
+        "scale": [0.45, 0.45, 0.45]
+      }
+    ]
+  }
+}

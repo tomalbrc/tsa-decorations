@@ -1,0 +1,13 @@
+{
+  "id": "tsa:small_darkoak_dresser_gilded",
+  "model": "minecraft:custom/furniture/boards/small_darkoak_dresser_gilded",
+  "properties": {
+    "rotate": true
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,2,1]
+    }
+  ]
+}
