@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "tsa-dof",
+  "id": "tsa-decorations",
   "version": "${version}",
-  "name": "tsa-dof",
-  "description": "",
-  "authors": [],
+  "name": "TSA: Decorations & Furniture",
+  "description": "Server-side Decorations & Furniture",
+  "authors": ["tomalbrc"],
   "contact": {
-    "repo": "https://github.com/tomalbrc/tsa-dof"
+    "repo": "https://github.com/tomalbrc/tsa-decorations"
   },
   "license": "MIT",
-  "icon": "tsa-dof-icon.png",
+  "icon": "tsa-decorations-icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "de.tomalbrc.tsadof.TSADOF"
+      "de.tomalbrc.decorations.TSADecorations"
     ]
   },
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": ">=1.21",
-    "filament": ">=0.7.3"
+    "filament": ">=0.8.0"
   }
 }

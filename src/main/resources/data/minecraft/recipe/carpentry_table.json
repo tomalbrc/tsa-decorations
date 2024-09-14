@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:logs"
+        },
+        "C": {
+            "item": "minecraft:crafter"
+        }
+    },
+    "result": {
+        "id": "tsa:carpentry_table",
+        "count": 1
+    }
+}

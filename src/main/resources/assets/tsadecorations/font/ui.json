@@ -1,0 +1,55 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "tsadecorations:gui/carpentry_ui.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": ["U"]
+        },
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/slot.png","ascent": -4,"height":18,"chars":["\uF700"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/slot.png","ascent":-22,"height":18,"chars":["\uF701"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/slot.png","ascent":-40,"height":18,"chars":["\uF702"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/slot.png","ascent":-58,"height":18,"chars":["\uF703"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/slot.png","ascent":-76,"height":18,"chars":["\uF704"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/slot.png","ascent":-94,"height":18,"chars":["\uF705"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller_disabled.png","ascent":-23,"height":15,"chars":["\uF000"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-23,"height":15,"chars":["\uF800"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-25,"height":15,"chars":["\uF801"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-27,"height":15,"chars":["\uF802"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-29,"height":15,"chars":["\uF803"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-31,"height":15,"chars":["\uF804"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-33,"height":15,"chars":["\uF805"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-35,"height":15,"chars":["\uF806"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-37,"height":15,"chars":["\uF807"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-39,"height":15,"chars":["\uF808"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-41,"height":15,"chars":["\uF809"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-43,"height":15,"chars":["\uF80A"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-45,"height":15,"chars":["\uF80B"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-47,"height":15,"chars":["\uF80C"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-49,"height":15,"chars":["\uF80D"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-51,"height":15,"chars":["\uF80E"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-53,"height":15,"chars":["\uF80F"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-55,"height":15,"chars":["\uF810"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-57,"height":15,"chars":["\uF811"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-59,"height":15,"chars":["\uF812"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-61,"height":15,"chars":["\uF813"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-63,"height":15,"chars":["\uF814"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-65,"height":15,"chars":["\uF815"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-67,"height":15,"chars":["\uF816"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-69,"height":15,"chars":["\uF817"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-71,"height":15,"chars":["\uF818"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-73,"height":15,"chars":["\uF819"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-75,"height":15,"chars":["\uF81A"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-77,"height":15,"chars":["\uF81B"]},
+        {"type":"bitmap","file":"minecraft:gui/sprites/container/stonecutter/scroller.png","ascent":-78,"height":15,"chars":["\uF81C"]},
+        {
+            "type": "space",
+            "advances": {"-": -1, "x": -16, "<": -8,"(": -18}
+        },
+        {
+            "type": "space",
+            "advances": {"_": 1, ">": 16, ")": 18}
+        }
+    ]
+}

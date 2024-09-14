@@ -6,7 +6,7 @@
   },
   "behaviour": {
     "animation": {
-      "model": "tsa:stabilizer"
+      "model": "tsa:darkoak_chest"
     },
     "container": {
       "name": "Dark Oak Chest",

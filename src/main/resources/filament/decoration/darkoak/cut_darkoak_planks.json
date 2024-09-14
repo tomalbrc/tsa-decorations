@@ -1,5 +1,5 @@
 {
-  "id": "tsa:darkoak_planks",
+  "id": "tsa:cut_darkoak_planks",
   "model": "minecraft:custom/furniture/misc/cut_darkoak_planks",
   "properties": {
     "rotate": true,

@@ -32,7 +32,10 @@ dependencies {
     modImplementation ("eu.pb4:polymer-resource-pack:${project.polymer_version}")
     modImplementation ("eu.pb4:polymer-autohost:${project.polymer_version}")
 
+    modImplementation include("eu.pb4:placeholder-api:2.4.1+1.21")
+
     modImplementation("de.tomalbrc:filament:${project.filament_version}")
+
 }
 
 processResources {

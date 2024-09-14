@@ -2,8 +2,9 @@
   "id": "tsa:darkoak_bench",
   "model": "minecraft:custom/furniture/benches/darkoak_bench",
   "properties": {
-      "rotate": true,
-      "rotateSmooth": true
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 5
   },
   "behaviour": {
     "seat": [

@@ -1,0 +1,12 @@
+{
+  "id": "tsa:nails",
+  "vanillaItem": "minecraft:paper",
+  "itemResource":{
+    "models": {
+      "default": "minecraft:custom/furniture/misc/nails"
+    }
+  },
+  "properties": {
+    "stackSize": 16
+  }
+}
