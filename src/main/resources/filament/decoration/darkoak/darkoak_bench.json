@@ -4,7 +4,7 @@
   "properties": {
     "rotate": true,
     "rotateSmooth": true,
-    "destroyTime": 5
+    "destroyTime": 2
   },
   "behaviour": {
     "seat": [
