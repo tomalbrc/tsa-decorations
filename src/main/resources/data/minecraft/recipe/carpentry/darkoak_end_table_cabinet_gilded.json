@@ -6,6 +6,9 @@
     "ingredient": {
         "item": "tsa:nails"
     },
+    "trimIngredient": {
+        "item": "minecraft:gold_ingot"
+    },
     "result": {
         "id": "tsa:darkoak_end_table_cabinet",
         "count": 1
