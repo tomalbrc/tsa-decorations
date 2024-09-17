@@ -3,8 +3,8 @@
 	"parent": "stone",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/furniture/boards/darkoak_end_table_cabinet",
-		"particle": "item/furniture/boards/darkoak_end_table_cabinet"
+		"0": "item/furniture/boards/darkoak_end_table_cabinet_gilded",
+		"particle": "item/furniture/boards/darkoak_end_table_cabinet_gilded"
 	},
 	"elements": [
 		{
@@ -18,13 +18,13 @@
 			}
 		},
 		{
-			"from": [0.5, 14, 0.5],
+			"from": [0.5, 15, 0.5],
 			"to": [15.5, 16, 15.5],
 			"faces": {
-				"north": {"uv": [3.75, 7.75, 7.5, 8.25], "texture": "#0"},
-				"east": {"uv": [3.75, 7.75, 7.5, 8.25], "texture": "#0"},
-				"south": {"uv": [3.75, 7.75, 7.5, 8.25], "texture": "#0"},
-				"west": {"uv": [3.75, 7.75, 7.5, 8.25], "texture": "#0"},
+				"north": {"uv": [3.75, 7.75, 7.5, 8], "texture": "#0"},
+				"east": {"uv": [3.75, 7.75, 7.5, 8], "texture": "#0"},
+				"south": {"uv": [3.75, 7.75, 7.5, 8], "texture": "#0"},
+				"west": {"uv": [3.75, 7.75, 7.5, 8], "texture": "#0"},
 				"up": {"uv": [3.75, 4, 7.5, 7.75], "texture": "#0"},
 				"down": {"uv": [3.75, 4, 7.5, 7.75], "texture": "#0"}
 			}

@@ -4,7 +4,8 @@
   "properties": {
     "rotate": true,
     "stackSize": 64,
-    "destroyTime": 5
+    "destroyTime": 2,
+    "requiresTool": false
   },
   "behaviour": {
     "tsa:carpentry": {}
