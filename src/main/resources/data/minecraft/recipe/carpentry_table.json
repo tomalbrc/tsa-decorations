@@ -10,7 +10,7 @@
             "tag": "minecraft:logs"
         },
         "C": {
-            "item": "minecraft:crafter"
+            "item": "minecraft:crafting_table"
         }
     },
     "result": {

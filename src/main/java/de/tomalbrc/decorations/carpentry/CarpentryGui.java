@@ -197,6 +197,7 @@ public class CarpentryGui extends SimpleGui {
     private void updateEx() {
         var l = this.availableRecipes();
         this.updateResultSlot(l);
+        this.updateItemList(l);
 
         this.updateTitle(this.selX, this.selY, l);
     }
