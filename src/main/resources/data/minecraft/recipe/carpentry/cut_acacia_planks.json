@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "minecraft:acacia_planks"
+    },
+    "ingredient": {
+        "item": "minecraft:acacia_planks"
+    },
+    "result": {
+        "id": "tsa:cut_acacia_planks",
+        "count": 1
+    }
+}

@@ -1,9 +1,8 @@
 {
-	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/furniture/tables/small_acacia_coffee_table",
-		"particle": "item/furniture/tables/small_acacia_coffee_table"
+		"0": "item/furniture/tables/small_acacia_table",
+		"particle": "item/furniture/tables/small_acacia_table"
 	},
 	"elements": [
 		{

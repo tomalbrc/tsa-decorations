@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:stone_bricks"
+    },
+    "result": {
+        "id": "tsa:stone_brick_pile",
+        "count": 1
+    }
+}

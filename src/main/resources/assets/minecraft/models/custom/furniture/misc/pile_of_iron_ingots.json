@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"0": "item/furniture/misc/gold_ingot",
-		"particle": "item/furniture/misc/gold_ingot"
+		"0": "item/furniture/misc/iron_ingot",
+		"particle": "item/furniture/misc/iron_ingot"
 	},
 	"elements": [
 		{

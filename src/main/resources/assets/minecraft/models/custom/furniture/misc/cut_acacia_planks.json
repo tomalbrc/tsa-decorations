@@ -1,8 +1,8 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/furniture/misc/cut_darkoak_planks",
-		"particle": "item/furniture/misc/cut_darkoak_planks"
+		"0": "item/furniture/misc/cut_acacia_planks",
+		"particle": "item/furniture/misc/cut_acacia_planks"
 	},
 	"elements": [
 		{

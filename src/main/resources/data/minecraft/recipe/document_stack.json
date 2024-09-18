@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "document_stack",
+    "pattern": [
+        "#",
+        "#",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "id": "tsa:document_stack",
+        "count": 1
+    }
+}

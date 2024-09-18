@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "striped_towel",
+    "pattern": [
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wool"
+        }
+    },
+    "result": {
+        "id": "tsa:striped_towel",
+        "count": 1
+    }
+}
