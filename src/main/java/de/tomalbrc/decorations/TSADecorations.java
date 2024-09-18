@@ -1,6 +1,8 @@
 package de.tomalbrc.decorations;
 
 import com.mojang.logging.LogUtils;
+import de.tomalbrc.decorations.carpentry.CarpentryBehaviour;
+import de.tomalbrc.decorations.carpentry.CarpentryRecipe;
 import de.tomalbrc.filament.api.FilamentLoader;
 import de.tomalbrc.filament.api.registry.BehaviourRegistry;
 import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
@@ -27,6 +29,7 @@ public class TSADecorations implements ModInitializer {
             FilamentLoader.loadModels(MOD_ID, COMMON_ID);
             FilamentLoader.loadItems(MOD_ID);
             FilamentLoader.loadDecorations(MOD_ID);
+
             PolymerResourcePackUtils.addModAssets(MOD_ID);
             PolymerResourcePackUtils.markAsRequired();
 

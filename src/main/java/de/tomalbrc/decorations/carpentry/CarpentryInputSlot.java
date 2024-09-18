@@ -1,4 +1,4 @@
-package de.tomalbrc.decorations;
+package de.tomalbrc.decorations.carpentry;
 
 import net.minecraft.world.Container;
 import net.minecraft.world.inventory.Slot;

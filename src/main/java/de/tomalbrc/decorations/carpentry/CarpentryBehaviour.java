@@ -1,4 +1,4 @@
-package de.tomalbrc.decorations;
+package de.tomalbrc.decorations.carpentry;
 
 import de.tomalbrc.filament.api.behaviour.DecorationBehaviour;
 import de.tomalbrc.filament.decoration.block.entity.DecorationBlockEntity;

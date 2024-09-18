@@ -1,4 +1,4 @@
-package de.tomalbrc.decorations;
+package de.tomalbrc.decorations.carpentry;
 
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;

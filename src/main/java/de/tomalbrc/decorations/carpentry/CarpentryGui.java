@@ -1,4 +1,4 @@
-package de.tomalbrc.decorations;
+package de.tomalbrc.decorations.carpentry;
 
 import eu.pb4.placeholders.api.TextParserUtils;
 import eu.pb4.sgui.api.gui.SimpleGui;
