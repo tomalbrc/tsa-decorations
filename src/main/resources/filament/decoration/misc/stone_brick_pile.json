@@ -1,15 +1,16 @@
 {
-  "id": "tsa:darkoak_dresser",
-  "model": "minecraft:custom/furniture/boards/darkoak_dresser",
+  "id": "tsa:stone_brick_pile",
+  "model": "minecraft:custom/furniture/misc/stone_brick_pile",
   "properties": {
     "rotate": true,
+    "rotateSmooth": true,
     "destroyTime": 2,
     "requiresTool": false
   },
   "blocks": [
     {
       "origin": [0,0,0],
-      "size": [2,2,1]
+      "size": [1,1,1]
     }
   ]
 }

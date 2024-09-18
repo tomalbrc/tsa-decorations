@@ -2,7 +2,9 @@
   "id": "tsa:darkoak_sidetable",
   "model": "minecraft:custom/furniture/boards/darkoak_sidetable",
   "properties": {
-    "rotate": true
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
   },
   "blocks": [
     {

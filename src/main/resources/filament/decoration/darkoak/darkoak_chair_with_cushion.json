@@ -4,7 +4,9 @@
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,
-	"rotateSmooth": true
+	"rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
   },
   "behaviour": {
     "seat": [{

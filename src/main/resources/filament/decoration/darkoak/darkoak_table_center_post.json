@@ -3,7 +3,9 @@
   "model": "minecraft:custom/furniture/tables/darkoak_table_center_post",
   "properties": {
     "rotate": true,
-    "rotateSmooth": true
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
   },
   "blocks": [
     {

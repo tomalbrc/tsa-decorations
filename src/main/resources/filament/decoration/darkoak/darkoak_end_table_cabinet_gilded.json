@@ -2,8 +2,10 @@
   "id": "tsa:darkoak_end_table_cabinet_gilded",
   "model": "minecraft:custom/furniture/boards/darkoak_end_table_cabinet_gilded",
   "properties": {
-      "rotate": true,
-      "rotateSmooth": true
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
   },
   "blocks": [
     {

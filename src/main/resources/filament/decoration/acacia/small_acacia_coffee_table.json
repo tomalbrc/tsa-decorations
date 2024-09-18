@@ -1,6 +1,6 @@
 {
-  "id": "tsa:darkoak_table_gold",
-  "model": "minecraft:custom/furniture/tables/darkoak_table_gold",
+  "id": "tsa:small_acacia_coffee_table",
+  "model": "minecraft:custom/furniture/tables/small_acacia_coffee_table",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

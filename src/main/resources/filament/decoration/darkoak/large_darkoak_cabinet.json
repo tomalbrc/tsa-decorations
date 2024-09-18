@@ -2,7 +2,9 @@
   "id": "tsa:large_darkoak_cabinet",
   "model": "minecraft:custom/furniture/boards/large_darkoak_cabinet",
   "properties": {
-    "rotate": true
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
   },
   "blocks": [
     {

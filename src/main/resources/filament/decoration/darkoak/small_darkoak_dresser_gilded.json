@@ -2,7 +2,9 @@
   "id": "tsa:small_darkoak_dresser_gilded",
   "model": "minecraft:custom/furniture/boards/small_darkoak_dresser_gilded",
   "properties": {
-    "rotate": true
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
   },
   "blocks": [
     {

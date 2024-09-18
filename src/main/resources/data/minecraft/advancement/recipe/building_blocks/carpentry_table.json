@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:carpentry_table"
+      }
+    },
+    "unlock_right_away": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "unlock_right_away"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:carpentry_table"
+    ]
+  }
+}

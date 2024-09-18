@@ -2,7 +2,9 @@
   "id": "tsa:slim_darkoak_shelf",
   "model": "minecraft:custom/furniture/shelves/slim_darkoak_shelf",
   "properties": {
-    "rotate": true
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
   },
   "blocks": [
     {
