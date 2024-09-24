@@ -1,0 +1,27 @@
+{
+  "id": "tsa:darkoak_bench",
+  "group": "tsa:dark_oak_furniture",
+  "model": "minecraft:custom/furniture/benches/darkoak_bench",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "behaviour": {
+    "seat": [
+      {
+        "offset": [0, 0.42, 0]
+      },
+      {
+        "offset": [1, 0.42, 0]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,1,1]
+    }
+  ]
+}

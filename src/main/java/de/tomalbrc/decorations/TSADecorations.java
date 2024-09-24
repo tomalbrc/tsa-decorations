@@ -5,6 +5,7 @@ import de.tomalbrc.decorations.carpentry.CarpentryBehaviour;
 import de.tomalbrc.decorations.carpentry.CarpentryRecipe;
 import de.tomalbrc.filament.api.FilamentLoader;
 import de.tomalbrc.filament.api.registry.BehaviourRegistry;
+import de.tomalbrc.filament.registry.DecorationRegistry;
 import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.Registry;

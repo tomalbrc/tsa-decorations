@@ -1,0 +1,18 @@
+{
+  "id": "tsa:small_darkoak_shelf",
+  "group": "tsa:dark_oak_furniture",
+  "model": "minecraft:custom/furniture/shelves/small_darkoak_shelf",
+  "properties": {
+    "placement": {
+      "wall": true
+    },
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,1,1]
+    }
+  ]
+}

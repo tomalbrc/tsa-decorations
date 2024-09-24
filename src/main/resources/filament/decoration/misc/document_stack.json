@@ -1,8 +1,0 @@
-{
-  "id": "tsa:document_stack",
-  "model": "minecraft:custom/furniture/misc/document_stack",
-  "properties": {
-    "rotate": true,
-    "rotateSmooth": true
-  }
-}

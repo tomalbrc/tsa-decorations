@@ -1,0 +1,14 @@
+[
+  {
+    "id": "tsa:dark_oak_furniture",
+    "item": "tsa:darkoak_bench"
+  },
+  {
+    "id": "tsa:acacia_furniture",
+    "item": "tsa:small_acacia_table"
+  },
+  {
+    "id": "tsa:decorations",
+    "item": "tsa:pile_of_gold_ingots"
+  }
+]

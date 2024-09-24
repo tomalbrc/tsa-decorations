@@ -1,6 +1,10 @@
 {
   "tsa.carpentry.menu.title": "Carpentry Table",
 
+  "tsa.itemGroup.acacia_furniture": "Acacia Furniture",
+  "tsa.itemGroup.dark_oak_furniture": "Dark Oak Furniture",
+  "tsa.itemGroup.decorations": "Decorations & Misc.",
+
   "block.tsa.carpentry_table": "Carpentry Table",
   "block.tsa.cut_darkoak_planks": "Cut Dark Oak Planks",
   "block.tsa.cut_acacia_planks": "Cut Acacia Planks",

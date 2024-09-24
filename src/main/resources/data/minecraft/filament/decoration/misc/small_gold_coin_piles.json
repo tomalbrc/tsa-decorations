@@ -1,0 +1,9 @@
+{
+  "id": "tsa:small_gold_coin_piles",
+  "group": "tsa:decorations",
+  "model": "minecraft:custom/furniture/misc/small_gold_coin_piles",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true
+  }
+}

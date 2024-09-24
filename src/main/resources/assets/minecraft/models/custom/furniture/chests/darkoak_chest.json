@@ -1,7 +1,8 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "bil:item/darkoak_chest.ajmodel/texture"
+		"0": "bil:item/darkoak_chest.ajmodel/texture",
+		"particle": "bil:item/darkoak_chest.ajmodel/texture"
 	},
 	"elements": [
 		{

@@ -1,0 +1,16 @@
+{
+  "id": "tsa:large_darkoak_cabinet_gilded",
+  "group": "tsa:dark_oak_furniture",
+  "model": "minecraft:custom/furniture/boards/large_darkoak_cabinet_gilded",
+  "properties": {
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,3,1]
+    }
+  ]
+}

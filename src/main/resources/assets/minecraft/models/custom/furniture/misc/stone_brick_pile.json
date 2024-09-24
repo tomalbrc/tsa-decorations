@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"1": "item/furniture/misc/stone_brick_pile"
+		"1": "item/furniture/misc/stone_brick_pile",
+		"particle": "item/furniture/misc/stone_brick_pile"
 	},
 	"elements": [
 		{

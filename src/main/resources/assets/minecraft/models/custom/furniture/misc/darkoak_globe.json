@@ -1,7 +1,8 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "item/furniture/misc/darkoak_globe"
+		"1": "item/furniture/misc/darkoak_globe",
+		"particle": "item/furniture/misc/darkoak_globe"
 	},
 	"elements": [
 		{
