@@ -20,6 +20,6 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": ">=1.21",
-    "filament": ">=0.8.3"
+    "filament": ">=0.8.5"
   }
 }

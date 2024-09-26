@@ -4,8 +4,44 @@
     "item": "tsa:darkoak_bench"
   },
   {
+    "id": "tsa:jungle_furniture",
+    "item": "tsa:jungle_bench"
+  },
+  {
+    "id": "tsa:birch_furniture",
+    "item": "tsa:birch_bench"
+  },
+  {
+    "id": "tsa:spruce_furniture",
+    "item": "tsa:spruce_bench"
+  },
+  {
+    "id": "tsa:crimson_furniture",
+    "item": "tsa:crimson_bench"
+  },
+  {
+    "id": "tsa:warped_furniture",
+    "item": "tsa:warped_bench"
+  },
+  {
+    "id": "tsa:bamboo_furniture",
+    "item": "tsa:cut_bamboo_planks"
+  },
+  {
+    "id": "tsa:mangrove_furniture",
+    "item": "tsa:mangrove_bench"
+  },
+  {
+    "id": "tsa:oak_furniture",
+    "item": "tsa:oak_bench"
+  },
+  {
+    "id": "tsa:cherry_furniture",
+    "item": "tsa:cherry_bench"
+  },
+  {
     "id": "tsa:acacia_furniture",
-    "item": "tsa:small_acacia_table"
+    "item": "tsa:acacia_bench"
   },
   {
     "id": "tsa:decorations",

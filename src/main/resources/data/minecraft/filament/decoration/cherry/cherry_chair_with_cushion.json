@@ -1,0 +1,23 @@
+{
+  "id": "tsa:cherry_chair_with_cushion",
+  "group": "tsa:cherry_furniture",
+  "model": "minecraft:custom/furniture/chairs/cherry_chair_with_cushion",
+  "vanillaItem": "minecraft:leather_horse_armor",
+  "properties": {
+    "rotate": true,
+	"rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "behaviour": {
+    "seat": [{
+      "offset": [0, 0.5, -0.05]
+    }]
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,1,1]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tsa:cut_warped_planks",
+  "group": "tsa:warped_furniture",
+  "model": "minecraft:custom/furniture/misc/cut_warped_planks",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true
+  }
+}
