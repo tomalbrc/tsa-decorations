@@ -1,0 +1,16 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:cut_darkoak_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "trimIngredient": {
+        "item": "minecraft:glass"
+    },
+    "result": {
+        "id": "tsa:small_darkoak_table",
+        "count": 1
+    }
+}

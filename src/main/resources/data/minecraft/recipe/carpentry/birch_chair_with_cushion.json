@@ -1,0 +1,16 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:cut_birch_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "trimIngredient": {
+        "tag": "minecraft:wool"
+    },
+    "result": {
+        "id": "tsa:birch_chair_with_cushion",
+        "count": 1
+    }
+}

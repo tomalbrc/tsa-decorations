@@ -1,0 +1,16 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:cut_spruce_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "trimIngredient": {
+        "tag": "minecraft:wool"
+    },
+    "result": {
+        "id": "tsa:spruce_chair_with_cushion",
+        "count": 1
+    }
+}

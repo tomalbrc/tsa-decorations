@@ -1,0 +1,16 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:cut_spruce_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "trimIngredient": {
+        "item": "minecraft:iron_block"
+    },
+    "result": {
+        "id": "tsa:spruce_bench",
+        "count": 1
+    }
+}

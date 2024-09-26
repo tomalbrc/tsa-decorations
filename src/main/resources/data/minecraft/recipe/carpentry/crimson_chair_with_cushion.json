@@ -1,0 +1,16 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:cut_crimson_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "trimIngredient": {
+        "tag": "minecraft:wool"
+    },
+    "result": {
+        "id": "tsa:crimson_chair_with_cushion",
+        "count": 1
+    }
+}
