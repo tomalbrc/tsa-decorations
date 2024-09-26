@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "minecraft:mangrove_planks"
+    },
+    "ingredient": {
+        "item": "minecraft:mangrove_planks"
+    },
+    "result": {
+        "id": "tsa:cut_mangrove_planks",
+        "count": 1
+    }
+}

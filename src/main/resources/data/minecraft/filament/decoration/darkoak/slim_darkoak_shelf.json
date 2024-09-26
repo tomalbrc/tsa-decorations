@@ -1,6 +1,6 @@
 {
   "id": "tsa:slim_darkoak_shelf",
-  "group": "tsa:dark_oak_furniture",
+  "group": "tsa:darkoak_furniture",
   "model": "minecraft:custom/furniture/shelves/slim_darkoak_shelf",
   "properties": {
     "rotate": true,

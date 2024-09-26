@@ -1,10 +1,10 @@
 {
     "type": "tsa:carpentry_recipe",
     "baseIngredient": {
-        "item": "minecraft:dark_oak_planks"
+        "item": "minecraft:darkoak_planks"
     },
     "ingredient": {
-        "item": "minecraft:dark_oak_planks"
+        "item": "minecraft:darkoak_planks"
     },
     "result": {
         "id": "tsa:cut_darkoak_planks",

@@ -1,6 +1,6 @@
 {
   "id": "tsa:darkoak_end_table_cabinet",
-  "group": "tsa:dark_oak_furniture",
+  "group": "tsa:darkoak_furniture",
   "model": "minecraft:custom/furniture/boards/darkoak_end_table_cabinet",
   "properties": {
     "rotate": true,

@@ -1,6 +1,6 @@
 {
   "id": "tsa:darkoak_chest",
-  "group": "tsa:dark_oak_furniture",
+  "group": "tsa:darkoak_furniture",
   "model": "minecraft:custom/furniture/chests/darkoak_chest",
   "properties": {
     "rotate": true,

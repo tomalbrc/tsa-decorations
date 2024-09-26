@@ -1,17 +1,27 @@
 import os
 import shutil
+import re
+import sys
 
 # List of names to replace
 replacement_names = [
-    "acacia", "birch", "darkoak", "oak", 
-    "jungle", "mangrove", "cherry", 
-    "warped", "crimson", "bamboo", "spruce"
+    "acacia", 
+    "birch", 
+    "darkoak", 
+    "oak", 
+    "jungle", 
+    "mangrove", 
+    "cherry", 
+    "warped", 
+    "crimson", 
+    "bamboo", 
+    "spruce"
 ]
 
 def copy_files_with_replacement(original_name, target_directory):
     # Check which name is currently in the original filename
     for name in replacement_names:
-        if name == original_name:
+        if name in original_name:
             original_file_path = os.path.join(target_directory, original_name)
 
             # If the original file exists
@@ -51,12 +61,20 @@ def replace_in_file(file_path, old_name, new_name):
 def search_directory_for_files(target_directory, search_name):
     for root, _, files in os.walk(target_directory):
         for file in files:
-            if search_name in file:
+            # Get the base name without extension
+            base_name, _ = os.path.splitext(file)
+            # Check if the base name matches the search name
+            if base_name == search_name:
                 copy_files_with_replacement(file, root)
 
 if __name__ == "__main__":
-    # Input: the name to search for
-    input_name = input("Enter the name to search for (e.g., small_oak_table): ")
-    directory_to_search = input("Enter the directory to search in: ")
+    # Check for command line arguments
+    if len(sys.argv) > 2:
+        input_name = sys.argv[1]
+        directory_to_search = sys.argv[2]
+    else:
+        # Input: the name to search for
+        input_name = input("Enter the name to search for (e.g., small_oak_table): ")
+        directory_to_search = input("Enter the directory to search in: ")
 
     search_directory_for_files(directory_to_search, input_name)

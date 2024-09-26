@@ -1,6 +1,6 @@
 {
   "id": "tsa:cut_darkoak_planks",
-  "group": "tsa:dark_oak_furniture",
+  "group": "tsa:darkoak_furniture",
   "model": "minecraft:custom/furniture/misc/cut_darkoak_planks",
   "properties": {
     "rotate": true,

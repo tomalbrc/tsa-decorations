@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "minecraft:spruce_planks"
+    },
+    "ingredient": {
+        "item": "minecraft:spruce_planks"
+    },
+    "result": {
+        "id": "tsa:cut_spruce_planks",
+        "count": 1
+    }
+}

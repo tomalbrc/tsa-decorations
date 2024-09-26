@@ -1,6 +1,6 @@
 {
   "id": "tsa:darkoak_dresser",
-  "group": "tsa:dark_oak_furniture",
+  "group": "tsa:darkoak_furniture",
   "model": "minecraft:custom/furniture/boards/darkoak_dresser",
   "properties": {
     "rotate": true,

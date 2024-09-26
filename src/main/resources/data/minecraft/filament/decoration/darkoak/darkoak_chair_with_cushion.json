@@ -1,6 +1,6 @@
 {
   "id": "tsa:darkoak_chair_with_cushion",
-  "group": "tsa:dark_oak_furniture",
+  "group": "tsa:darkoak_furniture",
   "model": "minecraft:custom/furniture/chairs/darkoak_chair_with_cushion",
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {

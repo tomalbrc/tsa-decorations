@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "minecraft:jungle_planks"
+    },
+    "ingredient": {
+        "item": "minecraft:jungle_planks"
+    },
+    "result": {
+        "id": "tsa:cut_jungle_planks",
+        "count": 1
+    }
+}
