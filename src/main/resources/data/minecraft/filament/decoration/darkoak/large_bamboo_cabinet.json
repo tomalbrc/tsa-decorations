@@ -1,0 +1,16 @@
+{
+  "id": "tsa:large_bamboo_cabinet",
+  "group": "tsa:bamboo_furniture",
+  "model": "minecraft:custom/furniture/boards/large_bamboo_cabinet",
+  "properties": {
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,3,1]
+    }
+  ]
+}

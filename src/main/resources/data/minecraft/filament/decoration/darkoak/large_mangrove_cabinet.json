@@ -1,0 +1,16 @@
+{
+  "id": "tsa:large_mangrove_cabinet",
+  "group": "tsa:mangrove_furniture",
+  "model": "minecraft:custom/furniture/boards/large_mangrove_cabinet",
+  "properties": {
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,3,1]
+    }
+  ]
+}
