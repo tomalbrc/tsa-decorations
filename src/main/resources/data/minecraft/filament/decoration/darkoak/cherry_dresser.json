@@ -1,0 +1,16 @@
+{
+  "id": "tsa:cherry_dresser",
+  "group": "tsa:cherry_furniture",
+  "model": "minecraft:custom/furniture/boards/cherry_dresser",
+  "properties": {
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,2,1]
+    }
+  ]
+}
