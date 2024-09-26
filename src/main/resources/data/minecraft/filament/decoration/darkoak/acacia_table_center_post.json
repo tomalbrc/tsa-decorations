@@ -1,0 +1,17 @@
+{
+  "id": "tsa:acacia_table_center_post",
+  "group": "tsa:acacia_furniture",
+  "model": "minecraft:custom/furniture/tables/acacia_table_center_post",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,1,1]
+    }
+  ]
+}

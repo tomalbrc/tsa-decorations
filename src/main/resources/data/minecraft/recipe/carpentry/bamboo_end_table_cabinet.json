@@ -1,13 +1,13 @@
 {
     "type": "tsa:carpentry_recipe",
     "baseIngredient": {
-        "item": "minecraft:dark_oak_planks"
+        "item": "tsa:cut_bamboo_planks"
     },
     "ingredient": {
-        "item": "minecraft:dark_oak_planks"
+        "item": "tsa:nails"
     },
     "result": {
-        "id": "tsa:cut_darkoak_planks",
+        "id": "tsa:bamboo_end_table_cabinet",
         "count": 1
     }
 }

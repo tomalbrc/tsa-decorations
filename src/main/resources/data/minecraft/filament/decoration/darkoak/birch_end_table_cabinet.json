@@ -1,0 +1,17 @@
+{
+  "id": "tsa:birch_end_table_cabinet",
+  "group": "tsa:birch_furniture",
+  "model": "minecraft:custom/furniture/boards/birch_end_table_cabinet",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,1,1]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tsa:warped_table_center_post",
+  "group": "tsa:warped_furniture",
+  "model": "minecraft:custom/furniture/tables/warped_table_center_post",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,1,1]
+    }
+  ]
+}
