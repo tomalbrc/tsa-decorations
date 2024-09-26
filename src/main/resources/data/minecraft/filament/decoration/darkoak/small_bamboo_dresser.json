@@ -1,0 +1,16 @@
+{
+  "id": "tsa:small_bamboo_dresser",
+  "group": "tsa:bamboo_furniture",
+  "model": "minecraft:custom/furniture/boards/small_bamboo_dresser",
+  "properties": {
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,2,1]
+    }
+  ]
+}
