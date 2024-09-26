@@ -1,0 +1,16 @@
+{
+  "id": "tsa:cherry_sidetable",
+  "group": "tsa:cherry_furniture",
+  "model": "minecraft:custom/furniture/boards/cherry_sidetable",
+  "properties": {
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,1,1]
+    }
+  ]
+}
