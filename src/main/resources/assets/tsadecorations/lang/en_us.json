@@ -66,5 +66,6 @@
   "block.tsa.document_stack": "Stack of Papers",
   "block.tsa.stone_brick_pile": "Broken Stone Bricks",
   "block.tsa.striped_towel": "Striped Towel",
-  "item.tsa.nails": "Carpentry Nails"
+  "item.tsa.nails": "Carpentry Nails",
+  "polydex.tsa.carpentry.recipes": "Carpentry Table Recipes"
 }

@@ -3,11 +3,13 @@ package de.tomalbrc.decorations;
 import com.mojang.logging.LogUtils;
 import de.tomalbrc.decorations.carpentry.CarpentryBehaviour;
 import de.tomalbrc.decorations.carpentry.CarpentryRecipe;
+import de.tomalbrc.decorations.polydex.PolydexCompat;
 import de.tomalbrc.filament.api.FilamentLoader;
 import de.tomalbrc.filament.api.registry.BehaviourRegistry;
-import de.tomalbrc.filament.registry.DecorationRegistry;
 import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -33,6 +35,12 @@ public class TSADecorations implements ModInitializer {
 
             PolymerResourcePackUtils.addModAssets(MOD_ID);
             PolymerResourcePackUtils.markAsRequired();
+
+            if (FabricLoader.getInstance().isModLoaded("polydex")) {
+                ServerLifecycleEvents.SERVER_STARTED.register((server) -> {
+                    PolydexCompat.init(server);
+                });
+            }
 
         } catch (Exception e) {
             LOGGER.error("Could not load some files!");

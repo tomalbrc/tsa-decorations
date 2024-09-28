@@ -14,6 +14,13 @@ repositories {
     maven { url 'https://maven.nucleoid.xyz' }
     maven { url 'https://maven.tomalbrc.de' }
     maven { url 'https://jitpack.io/' }
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 dependencies {
@@ -26,15 +33,15 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     modImplementation include("eu.pb4:sgui:${project.sgui_version}")
+    modImplementation include("eu.pb4:placeholder-api:2.4.1+1.21")
 
     modImplementation ("eu.pb4:polymer-core:${project.polymer_version}")
     modImplementation ("eu.pb4:polymer-resource-pack:${project.polymer_version}")
     modImplementation ("eu.pb4:polymer-autohost:${project.polymer_version}")
 
-    modImplementation include("eu.pb4:placeholder-api:2.4.1+1.21")
+    modImplementation ("de.tomalbrc:filament:${project.filament_version}")
 
-    modImplementation("de.tomalbrc:filament:${project.filament_version}")
-
+    modCompileOnly "maven.modrinth:polydex:1.2.4+1.21.1"
 }
 
 processResources {

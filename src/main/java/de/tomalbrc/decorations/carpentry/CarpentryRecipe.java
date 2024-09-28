@@ -9,6 +9,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Optional;
 
@@ -50,6 +51,7 @@ public class CarpentryRecipe implements PolymerObject, Recipe<CraftingInput> {
     }
 
     @Override
+    @NotNull
     public ItemStack assemble(CraftingInput recipeInput, HolderLookup.Provider provider) {
         return this.getResultItem(provider).copy();
     }
@@ -60,16 +62,19 @@ public class CarpentryRecipe implements PolymerObject, Recipe<CraftingInput> {
     }
 
     @Override
+    @NotNull
     public ItemStack getResultItem(HolderLookup.Provider provider) {
         return this.result;
     }
 
     @Override
+    @NotNull
     public RecipeSerializer<?> getSerializer() {
         return CarpentryRecipeSerializer.INSTANCE;
     }
 
     @Override
+    @NotNull
     public RecipeType<?> getType() {
         return Type.INSTANCE;
     }
@@ -94,6 +99,7 @@ public class CarpentryRecipe implements PolymerObject, Recipe<CraftingInput> {
         public static final CarpentryRecipeSerializer INSTANCE = new CarpentryRecipeSerializer();
 
         @Override
+        @NotNull
         public MapCodec<CarpentryRecipe> codec() {
             return CarpentryRecipe.CODEC;
         }
