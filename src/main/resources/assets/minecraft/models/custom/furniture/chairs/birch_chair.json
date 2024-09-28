@@ -1,8 +1,8 @@
 {
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/furniture/chairs/darkoak_chair",
-		"particle": "item/furniture/chairs/darkoak_chair"
+		"0": "item/furniture/chairs/birch_chair",
+		"particle": "item/furniture/chairs/birch_chair"
 	},
 	"elements": [
 		{
