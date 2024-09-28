@@ -43,7 +43,7 @@ public class CarpentryGui extends SimpleGui {
         String scrollStr = percentage == -1 ? "\uF000" : Character.toString(0xF800 | (int)((0x1C)*percentage));
 
         // cursed.
-        return String.format("<color:#ffffff><font:tsadecorations:ui><U<xx----%s%s%s____--%s<<xxxxxxxxx</font></color><lang:tsa.carpentry.menu.title>", colA, rowStr, colB, scrollStr);
+        return String.format("<color:#ffffff><font:tsadecorations:ui><U<xx----%s%s%s____--%s<<xxxxxxxxx</font></color><lang:block.tsa.carpentry_table>", colA, rowStr, colB, scrollStr);
     }
 
     private void updateTitle(int column, int row, List<CarpentryRecipe> recipes) {
