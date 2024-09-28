@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nail_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          },
+          {
+            "items": "minecraft:netherite_scrap"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:nails_workbench"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nail_items"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:nails_workbench"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "nails",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        }
+    ],
+    "result": {
+        "id": "tsa:nails",
+        "count": 2
+    }
+}
