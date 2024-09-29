@@ -1,6 +1,4 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "generated",
 	"texture_size": [128, 128],
 	"textures": {
 		"0": "item/furniture/shelves/mangrove_shelf",
