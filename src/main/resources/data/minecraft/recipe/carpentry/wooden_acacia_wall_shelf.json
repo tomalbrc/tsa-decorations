@@ -1,13 +1,13 @@
 {
     "type": "tsa:carpentry_recipe",
     "baseIngredient": {
-        "item": "tsa:cut_mangrove_planks"
+        "item": "tsa:cut_acacia_planks"
     },
     "ingredient": {
         "item": "tsa:nails"
     },
     "result": {
-        "id": "tsa:wooden_mangrove_wall_shelf",
+        "id": "tsa:wooden_acacia_wall_shelf",
         "count": 1
     }
 }
