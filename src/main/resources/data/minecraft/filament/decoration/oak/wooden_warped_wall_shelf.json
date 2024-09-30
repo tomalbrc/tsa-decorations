@@ -1,5 +1,6 @@
 {
   "id": "tsa:wooden_warped_wall_shelf",
+  "group": "tsa:warped_furniture",
   "model": "minecraft:custom/furniture/shelves/wooden_warped_wall_shelf",
   "properties": {
     "placement": {

@@ -1,5 +1,6 @@
 {
   "id": "tsa:wooden_jungle_wall_shelf",
+  "group": "tsa:jungle_furniture",
   "model": "minecraft:custom/furniture/shelves/wooden_jungle_wall_shelf",
   "properties": {
     "placement": {

@@ -1,5 +1,6 @@
 {
   "id": "tsa:wooden_mangrove_wall_shelf",
+  "group": "tsa:mangrove_furniture",
   "model": "minecraft:custom/furniture/shelves/wooden_mangrove_wall_shelf",
   "properties": {
     "placement": {

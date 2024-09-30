@@ -1,5 +1,6 @@
 {
   "id": "tsa:wooden_cherry_wall_shelf",
+  "group": "tsa:cherry_furniture",
   "model": "minecraft:custom/furniture/shelves/wooden_cherry_wall_shelf",
   "properties": {
     "placement": {
