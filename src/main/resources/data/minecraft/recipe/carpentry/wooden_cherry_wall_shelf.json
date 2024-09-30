@@ -1,7 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
     "baseIngredient": {
-        "item": "tsa:wooden_cherry_planks"
+        "item": "tsa:cut_cherry_planks"
     },
     "ingredient": {
         "item": "tsa:nails"
