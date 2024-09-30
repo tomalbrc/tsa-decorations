@@ -1,0 +1,25 @@
+{
+  "id": "tsa:mangrove_park_bench",
+  "group": "tsa:mangrove_furniture",
+  "model": "minecraft:custom/furniture/benches/mangrove_park_bench",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "behaviour": {
+    "seat": [{
+        "offset": [0, 0.35, 0]
+      },
+      {
+        "offset": [-1, 0.35, 0]
+      }]
+  },
+  "blocks": [
+    {
+      "origin": [-1,0,0],
+      "size": [2,1,1]
+    }
+  ]
+}
