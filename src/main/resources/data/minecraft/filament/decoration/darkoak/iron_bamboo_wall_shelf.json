@@ -1,0 +1,18 @@
+{
+  "id": "tsa:iron_bamboo_wall_shelf",
+  "group": "tsa:bamboo_furniture",
+  "model": "minecraft:custom/furniture/shelves/iron_bamboo_wall_shelf",
+  "properties": {
+    "placement": {
+      "wall": true
+    },
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,1,1]
+    }
+  ]
+}

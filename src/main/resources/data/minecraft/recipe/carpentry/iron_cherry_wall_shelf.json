@@ -1,13 +1,13 @@
 {
     "type": "tsa:carpentry_recipe",
     "baseIngredient": {
-        "item": "tsa:cut_darkoak_planks"
+        "item": "tsa:cut_cherry_planks"
     },
     "ingredient": {
         "item": "tsa:nails"
     },
     "result": {
-        "id": "tsa:small_darkoak_shelf",
+        "id": "tsa:iron_cherry_wall_shelf",
         "count": 1
     }
 }
