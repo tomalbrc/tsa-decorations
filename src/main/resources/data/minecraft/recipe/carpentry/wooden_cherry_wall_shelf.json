@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:wooden_cherry_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "result": {
+        "id": "tsa:wooden_cherry_wall_shelf",
+        "count": 1
+    }
+}

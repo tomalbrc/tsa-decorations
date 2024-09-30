@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:wooden_warped_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "result": {
+        "id": "tsa:wooden_warped_wall_shelf",
+        "count": 1
+    }
+}
