@@ -51,7 +51,8 @@ public class CarpentryPage implements PolydexPage {
 
     @Override
     public void createPage(@Nullable PolydexEntry polydexEntry, ServerPlayer serverPlayerEntity, PageBuilder layer) {
-        assert polydexEntry != null;
+        if (polydexEntry == null)
+            return;
 
         int i = 0;
 
