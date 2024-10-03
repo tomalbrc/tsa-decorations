@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:cut_darkoak_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "result": {
+        "id": "tsa:wooden_darkoak_bench",
+        "count": 1
+    }
+}

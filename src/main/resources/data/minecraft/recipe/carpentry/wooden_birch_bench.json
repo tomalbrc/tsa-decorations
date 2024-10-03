@@ -1,0 +1,13 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": {
+        "item": "tsa:cut_birch_planks"
+    },
+    "ingredient": {
+        "item": "tsa:nails"
+    },
+    "result": {
+        "id": "tsa:wooden_birch_bench",
+        "count": 1
+    }
+}
