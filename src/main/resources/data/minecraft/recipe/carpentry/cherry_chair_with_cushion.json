@@ -1,14 +1,8 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_cherry_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
-    "trimIngredient": {
-        "tag": "minecraft:wool"
-    },
+    "baseIngredient": "tsa:cut_cherry_planks",
+    "ingredient": "tsa:nails",
+    "trimIngredient": "#minecraft:wool",
     "result": {
         "id": "tsa:cherry_chair_with_cushion",
         "count": 1

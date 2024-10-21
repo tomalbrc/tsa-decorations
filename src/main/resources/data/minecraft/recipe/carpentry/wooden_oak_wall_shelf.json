@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_oak_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
+    "baseIngredient": "tsa:cut_oak_planks",
+    "ingredient": "tsa:nails",
     "result": {
         "id": "tsa:wooden_oak_wall_shelf",
         "count": 1

@@ -3,12 +3,8 @@
     "category": "misc",
     "group": "nails",
     "ingredients": [
-        {
-            "item": "minecraft:iron_ingot"
-        },
-        {
-            "item": "minecraft:netherite_scrap"
-        }
+        "minecraft:iron_ingot",
+        "minecraft:netherite_scrap"
     ],
     "result": {
         "id": "tsa:nails",

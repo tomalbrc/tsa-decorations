@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "minecraft:bamboo_planks"
-    },
-    "ingredient": {
-        "item": "minecraft:bamboo_planks"
-    },
+    "baseIngredient": "minecraft:bamboo_planks",
+    "ingredient": "minecraft:bamboo_planks",
     "result": {
         "id": "tsa:cut_bamboo_planks",
         "count": 1

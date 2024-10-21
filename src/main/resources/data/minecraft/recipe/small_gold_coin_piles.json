@@ -3,30 +3,14 @@
     "category": "misc",
     "group": "small_gold_coin_piles",
     "ingredients": [
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        }
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget"
     ],
     "result": {
         "id": "tsa:small_gold_coin_piles",

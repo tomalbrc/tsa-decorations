@@ -6,12 +6,8 @@
         "# #"
     ],
     "key": {
-        "#": {
-            "tag": "minecraft:logs"
-        },
-        "C": {
-            "item": "minecraft:crafting_table"
-        }
+        "#": "#minecraft:logs",
+        "C": "minecraft:crafting_table"
     },
     "result": {
         "id": "tsa:carpentry_table",

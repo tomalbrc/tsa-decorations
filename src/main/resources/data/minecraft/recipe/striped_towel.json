@@ -6,9 +6,7 @@
         "###"
     ],
     "key": {
-        "#": {
-            "tag": "minecraft:wool"
-        }
+        "#": "#minecraft:wool"
     },
     "result": {
         "id": "tsa:striped_towel",

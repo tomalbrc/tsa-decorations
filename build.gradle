@@ -1,9 +1,9 @@
 plugins {
-    id 'fabric-loom' version '1.6-SNAPSHOT'
+    id 'fabric-loom' version '1.7-SNAPSHOT'
     id 'maven-publish'
 }
 
-version = "${project.mod_version}+${project.minecraft_version_min}-${project.minecraft_version}"
+version = "${project.mod_version}+${project.minecraft_version_min}"
 group = project.maven_group
 
 base {
@@ -21,6 +21,7 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
+    mavenLocal()
 }
 
 dependencies {

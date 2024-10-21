@@ -3,27 +3,13 @@
     "category": "misc",
     "group": "scattered_gold_coins",
     "ingredients": [
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        },
-        {
-            "item": "minecraft:gold_nugget"
-        }
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget",
+        "minecraft:gold_nugget"
     ],
     "result": {
         "id": "tsa:scattered_gold_coins",

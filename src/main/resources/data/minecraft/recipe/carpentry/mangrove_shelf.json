@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_mangrove_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
+    "baseIngredient": "tsa:cut_mangrove_planks",
+    "ingredient": "tsa:nails",
     "result": {
         "id": "tsa:mangrove_shelf",
         "count": 1

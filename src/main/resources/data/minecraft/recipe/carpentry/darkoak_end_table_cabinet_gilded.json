@@ -1,14 +1,8 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_darkoak_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
-    "trimIngredient": {
-        "item": "minecraft:gold_ingot"
-    },
+    "baseIngredient": "tsa:cut_darkoak_planks",
+    "ingredient": "tsa:nails",
+    "trimIngredient": "minecraft:gold_ingot",
     "result": {
         "id": "tsa:darkoak_end_table_cabinet_gilded",
         "count": 1

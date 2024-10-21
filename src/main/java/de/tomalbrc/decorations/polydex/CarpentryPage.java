@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class CarpentryPage implements PolydexPage {
-    public static final ItemStack TYPE_ICON = new GuiElementBuilder(BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("tsa", "carpentry_table"))).setName(Component.translatable("polydex.tsa.carpentry.recipes").withStyle(ChatFormatting.GOLD)).asStack();
+    public static final ItemStack TYPE_ICON = new GuiElementBuilder(BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("tsa", "carpentry_table")).orElseThrow().value()).setName(Component.translatable("polydex.tsa.carpentry.recipes").withStyle(ChatFormatting.GOLD)).asStack();
 
     private List<PolydexIngredient<?>> ingredients;
 
@@ -41,7 +41,7 @@ public class CarpentryPage implements PolydexPage {
 
     @Override
     public ItemStack typeIcon(ServerPlayer serverPlayerEntity) {
-        return BuiltInRegistries.ITEM.get(decorationData.id()).getDefaultInstance();
+        return BuiltInRegistries.ITEM.get(decorationData.id()).orElseThrow().value().getDefaultInstance();
     }
 
     @Override
@@ -69,7 +69,7 @@ public class CarpentryPage implements PolydexPage {
             }
         }
 
-        layer.setOutput(6, 2, BuiltInRegistries.ITEM.get(polydexEntry.identifier()).getDefaultInstance());
+        layer.setOutput(6, 2, BuiltInRegistries.ITEM.get(polydexEntry.identifier()).orElseThrow().value().getDefaultInstance());
     }
 
     @Override

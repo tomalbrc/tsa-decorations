@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_oak_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
+    "baseIngredient": "tsa:cut_oak_planks",
+    "ingredient": "tsa:nails",
     "result": {
         "id": "tsa:large_oak_cabinet",
         "count": 1

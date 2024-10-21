@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "minecraft:crimson_planks"
-    },
-    "ingredient": {
-        "item": "minecraft:crimson_planks"
-    },
+    "baseIngredient": "minecraft:crimson_planks",
+    "ingredient": "minecraft:crimson_planks",
     "result": {
         "id": "tsa:cut_crimson_planks",
         "count": 1

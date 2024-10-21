@@ -8,9 +8,7 @@
         "#"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:paper"
-        }
+        "#": "minecraft:paper"
     },
     "result": {
         "id": "tsa:document_stack",

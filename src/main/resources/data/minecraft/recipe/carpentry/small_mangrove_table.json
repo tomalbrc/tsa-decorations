@@ -1,14 +1,8 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_mangrove_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
-    "trimIngredient": {
-        "item": "minecraft:glass"
-    },
+    "baseIngredient": "tsa:cut_mangrove_planks",
+    "ingredient": "tsa:nails",
+    "trimIngredient": "minecraft:glass",
     "result": {
         "id": "tsa:small_mangrove_table",
         "count": 1

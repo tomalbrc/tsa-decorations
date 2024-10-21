@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_crimson_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
+    "baseIngredient": "tsa:cut_crimson_planks",
+    "ingredient": "tsa:nails",
     "result": {
         "id": "tsa:crimson_dresser",
         "count": 1

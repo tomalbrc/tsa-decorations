@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_spruce_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
+    "baseIngredient": "tsa:cut_spruce_planks",
+    "ingredient": "tsa:nails",
     "result": {
         "id": "tsa:small_spruce_dresser",
         "count": 1

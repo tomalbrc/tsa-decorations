@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "tsa:cut_warped_planks"
-    },
-    "ingredient": {
-        "item": "tsa:nails"
-    },
+    "baseIngredient": "tsa:cut_warped_planks",
+    "ingredient": "tsa:nails",
     "result": {
         "id": "tsa:warped_shelf",
         "count": 1

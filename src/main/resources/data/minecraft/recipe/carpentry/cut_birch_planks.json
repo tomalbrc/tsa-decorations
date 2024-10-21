@@ -1,11 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": {
-        "item": "minecraft:birch_planks"
-    },
-    "ingredient": {
-        "item": "minecraft:birch_planks"
-    },
+    "baseIngredient": "minecraft:birch_planks",
+    "ingredient": "minecraft:birch_planks",
     "result": {
         "id": "tsa:cut_birch_planks",
         "count": 1

@@ -16,14 +16,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 public class PolydexCompat {
     public static final PolydexCategory CATEGORY = PolydexCategory.of(ResourceLocation.fromNamespaceAndPath("tsa", "carpentry"));
 
     public static void init(MinecraftServer server) {
-        List<RecipeHolder<CarpentryRecipe>> recipes = server.getRecipeManager().getAllRecipesFor(CarpentryRecipe.Type.INSTANCE);
+        List<RecipeHolder<CarpentryRecipe>> recipes = server.getRecipeManager().getRecipes().stream().filter(x -> x.value() instanceof CarpentryRecipe).map(x -> (RecipeHolder<CarpentryRecipe>)x).toList();
         for (RecipeHolder<CarpentryRecipe> recipe : recipes) {
-            ItemStack res = recipe.value().getResultItem(server.registryAccess());
+            ItemStack res = recipe.value().getResult();
             if (res.getItem() instanceof DecorationItem decorationItem) {
                 add(decorationItem);
 
