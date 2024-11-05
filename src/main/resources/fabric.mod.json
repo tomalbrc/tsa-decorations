@@ -8,7 +8,7 @@
   "contact": {
     "repo": "https://github.com/tomalbrc/tsa-decorations"
   },
-  "license": "MIT",
+  "license": "LGPL-3.0-or-later",
   "icon": "tsa-decorations-icon.png",
   "environment": "*",
   "entrypoints": {
@@ -19,7 +19,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": ">=1.21.2-",
-    "filament": ">=0.9.3"
+    "minecraft": ">=1.21.2",
+    "filament": ">=0.9.7"
   }
 }
