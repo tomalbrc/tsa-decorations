@@ -1,6 +1,6 @@
 {
   "id": "tsa:wooden_darkoak_picnic_table",
-  "model": "minecraft:custom/furniture/tables/wooden_darkoak_picnic_table",
+  "model": "minecraft:item/custom/furniture/tables/wooden_darkoak_picnic_table",
   "group": "tsa:darkoak_furniture",
   "properties": {
     "rotate": true,

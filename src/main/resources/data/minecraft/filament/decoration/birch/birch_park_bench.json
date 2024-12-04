@@ -1,7 +1,7 @@
 {
   "id": "tsa:birch_park_bench",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:custom/furniture/benches/birch_park_bench",
+  "model": "minecraft:item/custom/furniture/benches/birch_park_bench",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

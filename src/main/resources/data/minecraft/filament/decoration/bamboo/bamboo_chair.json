@@ -1,7 +1,7 @@
 {
   "id": "tsa:bamboo_chair",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:custom/furniture/chairs/bamboo_chair",
+  "model": "minecraft:item/custom/furniture/chairs/bamboo_chair",
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

@@ -1,7 +1,7 @@
 {
   "id": "tsa:wooden_bamboo_bench",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:custom/furniture/benches/wooden_bamboo_bench",
+  "model": "minecraft:item/custom/furniture/benches/wooden_bamboo_bench",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

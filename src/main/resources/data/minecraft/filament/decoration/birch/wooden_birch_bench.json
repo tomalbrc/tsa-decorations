@@ -1,7 +1,7 @@
 {
   "id": "tsa:wooden_birch_bench",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:custom/furniture/benches/wooden_birch_bench",
+  "model": "minecraft:item/custom/furniture/benches/wooden_birch_bench",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

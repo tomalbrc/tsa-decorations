@@ -1,6 +1,6 @@
 {
   "id": "tsa:wooden_crimson_picnic_table",
-  "model": "minecraft:custom/furniture/tables/wooden_crimson_picnic_table",
+  "model": "minecraft:item/custom/furniture/tables/wooden_crimson_picnic_table",
   "group": "tsa:crimson_furniture",
   "properties": {
     "rotate": true,

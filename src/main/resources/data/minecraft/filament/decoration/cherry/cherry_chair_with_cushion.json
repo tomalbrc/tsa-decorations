@@ -1,7 +1,7 @@
 {
   "id": "tsa:cherry_chair_with_cushion",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:custom/furniture/chairs/cherry_chair_with_cushion",
+  "model": "minecraft:item/custom/furniture/chairs/cherry_chair_with_cushion",
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

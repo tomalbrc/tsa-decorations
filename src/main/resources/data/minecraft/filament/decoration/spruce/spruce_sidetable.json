@@ -1,7 +1,7 @@
 {
   "id": "tsa:spruce_sidetable",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:custom/furniture/boards/spruce_sidetable",
+  "model": "minecraft:item/custom/furniture/boards/spruce_sidetable",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

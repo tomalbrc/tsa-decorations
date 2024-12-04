@@ -1,7 +1,7 @@
 {
   "id": "tsa:mangrove_sidetable",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:custom/furniture/boards/mangrove_sidetable",
+  "model": "minecraft:item/custom/furniture/boards/mangrove_sidetable",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

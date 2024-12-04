@@ -1,6 +1,6 @@
 {
   "id": "tsa:wooden_bamboo_picnic_table",
-  "model": "minecraft:custom/furniture/tables/wooden_bamboo_picnic_table",
+  "model": "minecraft:item/custom/furniture/tables/wooden_bamboo_picnic_table",
   "group": "tsa:bamboo_furniture",
   "properties": {
     "rotate": true,

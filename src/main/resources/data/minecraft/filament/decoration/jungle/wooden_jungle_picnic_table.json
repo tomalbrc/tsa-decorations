@@ -1,6 +1,6 @@
 {
   "id": "tsa:wooden_jungle_picnic_table",
-  "model": "minecraft:custom/furniture/tables/wooden_jungle_picnic_table",
+  "model": "minecraft:item/custom/furniture/tables/wooden_jungle_picnic_table",
   "group": "tsa:jungle_furniture",
   "properties": {
     "rotate": true,

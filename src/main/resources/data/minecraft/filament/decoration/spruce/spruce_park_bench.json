@@ -1,7 +1,7 @@
 {
   "id": "tsa:spruce_park_bench",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:custom/furniture/benches/spruce_park_bench",
+  "model": "minecraft:item/custom/furniture/benches/spruce_park_bench",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

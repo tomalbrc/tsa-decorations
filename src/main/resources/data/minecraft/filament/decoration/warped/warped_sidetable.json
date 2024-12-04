@@ -1,7 +1,7 @@
 {
   "id": "tsa:warped_sidetable",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:custom/furniture/boards/warped_sidetable",
+  "model": "minecraft:item/custom/furniture/boards/warped_sidetable",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

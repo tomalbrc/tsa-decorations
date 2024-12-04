@@ -1,7 +1,7 @@
 {
   "id": "tsa:cherry_sidetable",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:custom/furniture/boards/cherry_sidetable",
+  "model": "minecraft:item/custom/furniture/boards/cherry_sidetable",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

@@ -1,7 +1,7 @@
 {
   "id": "tsa:small_crimson_table",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:custom/furniture/tables/small_crimson_table",
+  "model": "minecraft:item/custom/furniture/tables/small_crimson_table",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

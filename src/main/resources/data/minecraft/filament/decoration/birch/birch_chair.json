@@ -1,7 +1,7 @@
 {
   "id": "tsa:birch_chair",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:custom/furniture/chairs/birch_chair",
+  "model": "minecraft:item/custom/furniture/chairs/birch_chair",
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

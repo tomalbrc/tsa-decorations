@@ -1,7 +1,7 @@
 {
   "id": "tsa:darkoak_table_center_post",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:custom/furniture/tables/darkoak_table_center_post",
+  "model": "minecraft:item/custom/furniture/tables/darkoak_table_center_post",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

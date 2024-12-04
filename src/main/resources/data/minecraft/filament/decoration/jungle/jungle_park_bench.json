@@ -1,7 +1,7 @@
 {
   "id": "tsa:jungle_park_bench",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:custom/furniture/benches/jungle_park_bench",
+  "model": "minecraft:item/custom/furniture/benches/jungle_park_bench",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

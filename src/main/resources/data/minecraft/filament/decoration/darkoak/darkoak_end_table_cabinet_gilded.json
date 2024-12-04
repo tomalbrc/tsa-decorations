@@ -1,7 +1,7 @@
 {
   "id": "tsa:darkoak_end_table_cabinet_gilded",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:custom/furniture/boards/darkoak_end_table_cabinet_gilded",
+  "model": "minecraft:item/custom/furniture/boards/darkoak_end_table_cabinet_gilded",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

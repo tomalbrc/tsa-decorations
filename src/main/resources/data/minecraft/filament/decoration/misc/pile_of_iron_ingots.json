@@ -1,7 +1,7 @@
 {
   "id": "tsa:pile_of_iron_ingots",
   "group": "tsa:decorations",
-  "model": "minecraft:custom/furniture/misc/pile_of_iron_ingots",
+  "model": "minecraft:item/custom/furniture/misc/pile_of_iron_ingots",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

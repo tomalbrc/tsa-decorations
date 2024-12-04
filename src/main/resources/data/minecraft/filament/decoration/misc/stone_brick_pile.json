@@ -1,7 +1,7 @@
 {
   "id": "tsa:stone_brick_pile",
   "group": "tsa:decorations",
-  "model": "minecraft:custom/furniture/misc/stone_brick_pile",
+  "model": "minecraft:item/custom/furniture/misc/stone_brick_pile",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

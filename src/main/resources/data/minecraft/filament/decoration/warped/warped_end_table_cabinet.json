@@ -1,7 +1,7 @@
 {
   "id": "tsa:warped_end_table_cabinet",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:custom/furniture/boards/warped_end_table_cabinet",
+  "model": "minecraft:item/custom/furniture/boards/warped_end_table_cabinet",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

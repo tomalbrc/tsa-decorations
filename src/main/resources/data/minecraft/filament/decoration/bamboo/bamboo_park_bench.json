@@ -1,7 +1,7 @@
 {
   "id": "tsa:bamboo_park_bench",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:custom/furniture/benches/bamboo_park_bench",
+  "model": "minecraft:item/custom/furniture/benches/bamboo_park_bench",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

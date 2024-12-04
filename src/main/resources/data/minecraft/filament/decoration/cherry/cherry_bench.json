@@ -1,7 +1,7 @@
 {
   "id": "tsa:cherry_bench",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:custom/furniture/benches/cherry_bench",
+  "model": "minecraft:item/custom/furniture/benches/cherry_bench",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

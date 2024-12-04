@@ -1,7 +1,7 @@
 {
   "id": "tsa:cherry_table",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:custom/furniture/tables/cherry_table",
+  "model": "minecraft:item/custom/furniture/tables/cherry_table",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

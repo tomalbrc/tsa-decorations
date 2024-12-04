@@ -1,7 +1,7 @@
 {
   "id": "tsa:bamboo_cabinet",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:custom/furniture/boards/bamboo_cabinet",
+  "model": "minecraft:item/custom/furniture/boards/bamboo_cabinet",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

@@ -1,7 +1,7 @@
 {
   "id": "tsa:birch_shelf",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:custom/furniture/shelves/birch_shelf",
+  "model": "minecraft:item/custom/furniture/shelves/birch_shelf",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

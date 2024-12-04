@@ -1,7 +1,7 @@
 {
   "id": "tsa:crimson_chair",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:custom/furniture/chairs/crimson_chair",
+  "model": "minecraft:item/custom/furniture/chairs/crimson_chair",
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

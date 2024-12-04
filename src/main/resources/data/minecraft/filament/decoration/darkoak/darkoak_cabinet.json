@@ -1,7 +1,7 @@
 {
   "id": "tsa:darkoak_cabinet",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:custom/furniture/boards/darkoak_cabinet",
+  "model": "minecraft:item/custom/furniture/boards/darkoak_cabinet",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

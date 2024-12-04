@@ -1,7 +1,7 @@
 {
   "id": "tsa:darkoak_chest",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:custom/furniture/chests/darkoak_chest",
+  "model": "minecraft:item/custom/furniture/chests/darkoak_chest",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

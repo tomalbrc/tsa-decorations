@@ -1,7 +1,7 @@
 {
   "id": "tsa:spruce_dresser",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:custom/furniture/boards/spruce_dresser",
+  "model": "minecraft:item/custom/furniture/boards/spruce_dresser",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

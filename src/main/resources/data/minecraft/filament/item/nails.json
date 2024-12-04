@@ -4,7 +4,7 @@
   "vanillaItem": "minecraft:paper",
   "itemResource":{
     "models": {
-      "default": "minecraft:custom/furniture/misc/nails"
+      "default": "minecraft:item/custom/furniture/misc/nails"
     }
   },
   "properties": {

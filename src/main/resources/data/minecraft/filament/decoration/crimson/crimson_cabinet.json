@@ -1,7 +1,7 @@
 {
   "id": "tsa:crimson_cabinet",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:custom/furniture/boards/crimson_cabinet",
+  "model": "minecraft:item/custom/furniture/boards/crimson_cabinet",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

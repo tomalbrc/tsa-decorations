@@ -1,7 +1,7 @@
 {
   "id": "tsa:wooden_spruce_wall_shelf",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:custom/furniture/shelves/wooden_spruce_wall_shelf",
+  "model": "minecraft:item/custom/furniture/shelves/wooden_spruce_wall_shelf",
   "properties": {
     "placement": {
       "wall": true

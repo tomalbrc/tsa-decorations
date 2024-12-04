@@ -1,7 +1,7 @@
 {
   "id": "tsa:acacia_shelf",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:custom/furniture/shelves/acacia_shelf",
+  "model": "minecraft:item/custom/furniture/shelves/acacia_shelf",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

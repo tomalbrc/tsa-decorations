@@ -1,7 +1,7 @@
 {
   "id": "tsa:oak_cabinet",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:custom/furniture/boards/oak_cabinet",
+  "model": "minecraft:item/custom/furniture/boards/oak_cabinet",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

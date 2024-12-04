@@ -1,7 +1,7 @@
 {
   "id": "tsa:oak_end_table_cabinet",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:custom/furniture/boards/oak_end_table_cabinet",
+  "model": "minecraft:item/custom/furniture/boards/oak_end_table_cabinet",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

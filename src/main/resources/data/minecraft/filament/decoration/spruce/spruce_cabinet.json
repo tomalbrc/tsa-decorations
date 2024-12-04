@@ -1,7 +1,7 @@
 {
   "id": "tsa:spruce_cabinet",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:custom/furniture/boards/spruce_cabinet",
+  "model": "minecraft:item/custom/furniture/boards/spruce_cabinet",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

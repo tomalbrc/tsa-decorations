@@ -1,7 +1,7 @@
 {
   "id": "tsa:small_mangrove_table",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:custom/furniture/tables/small_mangrove_table",
+  "model": "minecraft:item/custom/furniture/tables/small_mangrove_table",
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

@@ -1,7 +1,7 @@
 {
   "id": "tsa:crimson_shelf",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:custom/furniture/shelves/crimson_shelf",
+  "model": "minecraft:item/custom/furniture/shelves/crimson_shelf",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

@@ -1,7 +1,7 @@
 {
   "id": "tsa:acacia_cabinet",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:custom/furniture/boards/acacia_cabinet",
+  "model": "minecraft:item/custom/furniture/boards/acacia_cabinet",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

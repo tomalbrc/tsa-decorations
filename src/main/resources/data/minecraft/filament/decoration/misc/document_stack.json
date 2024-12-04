@@ -1,7 +1,7 @@
 {
   "id": "tsa:document_stack",
   "group": "tsa:decorations",
-  "model": "minecraft:custom/furniture/misc/document_stack",
+  "model": "minecraft:item/custom/furniture/misc/document_stack",
   "properties": {
     "rotate": true,
     "rotateSmooth": true

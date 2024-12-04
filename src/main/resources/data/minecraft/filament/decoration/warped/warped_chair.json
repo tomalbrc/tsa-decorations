@@ -1,7 +1,7 @@
 {
   "id": "tsa:warped_chair",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:custom/furniture/chairs/warped_chair",
+  "model": "minecraft:item/custom/furniture/chairs/warped_chair",
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

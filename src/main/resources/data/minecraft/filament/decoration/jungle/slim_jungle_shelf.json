@@ -1,7 +1,7 @@
 {
   "id": "tsa:slim_jungle_shelf",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:custom/furniture/shelves/slim_jungle_shelf",
+  "model": "minecraft:item/custom/furniture/shelves/slim_jungle_shelf",
   "properties": {
     "rotate": true,
     "destroyTime": 2,

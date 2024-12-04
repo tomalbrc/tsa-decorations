@@ -1,7 +1,7 @@
 {
   "id": "tsa:wooden_oak_wall_shelf",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:custom/furniture/shelves/wooden_oak_wall_shelf",
+  "model": "minecraft:item/custom/furniture/shelves/wooden_oak_wall_shelf",
   "properties": {
     "placement": {
       "wall": true
