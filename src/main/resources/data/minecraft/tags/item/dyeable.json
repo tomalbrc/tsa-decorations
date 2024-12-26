@@ -1,5 +1,16 @@
 {
   "values": [
-    "tsa:darkoak_chair_with_cushion"
+    "tsa:acacia_chair_with_cushion",
+    "tsa:bamboo_chair_with_cushion",
+    "tsa:birch_chair_with_cushion",
+    "tsa:cherry_chair_with_cushion",
+    "tsa:crimson_chair_with_cushion",
+    "tsa:darkoak_chair_with_cushion",
+    "tsa:jungle_chair_with_cushion",
+    "tsa:mangrove_chair_with_cushion",
+    "tsa:oak_chair_with_cushion",
+    "tsa:spruce_chair_with_cushion",
+    "tsa:warped_chair_with_cushion",
+    "tsa:striped_towel"
   ]
 }
