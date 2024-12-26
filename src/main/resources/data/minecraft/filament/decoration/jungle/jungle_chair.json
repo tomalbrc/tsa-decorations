@@ -2,7 +2,6 @@
   "id": "tsa:jungle_chair",
   "group": "tsa:jungle_furniture",
   "model": "minecraft:item/custom/furniture/chairs/jungle_chair",
-  "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

@@ -2,7 +2,6 @@
   "id": "tsa:acacia_chair",
   "group": "tsa:acacia_furniture",
   "model": "minecraft:item/custom/furniture/chairs/acacia_chair",
-  "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

@@ -2,7 +2,6 @@
   "id": "tsa:spruce_chair",
   "group": "tsa:spruce_furniture",
   "model": "minecraft:item/custom/furniture/chairs/spruce_chair",
-  "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,
