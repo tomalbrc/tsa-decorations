@@ -271,13 +271,14 @@
   "block.tsa.document_stack": "Stack of Papers",
   "block.tsa.stone_brick_pile": "Broken Stone Bricks",
   "block.tsa.striped_towel": "Striped Towel",
+
+  "block.tsa.large_darkoak_cabinet_gilded": "Large Gilded Dark Oak Cabinet",
+  "block.tsa.small_darkoak_dresser_gilded": "Small Gilded Dark Oak Dresser",
+  "block.tsa.darkoak_table_gold": "Gilded Dark Oak Table",
+  "block.tsa.darkoak_globe": "Dark Oak Globe",
+  "block.tsa.darkoak_chest": "Dark Oak Chest",
+
   "item.tsa.nails": "Carpentry Nails",
-
-
-
-
-
-
 
   "item.tsa.carpentry_table": "Carpentry Table",
 
@@ -528,6 +529,12 @@
   "item.tsa.wooden_mangrove_picnic_table": "Wooden Mangrove Picnic Table",
   "item.tsa.wooden_birch_picnic_table": "Wooden Birch Picnic Table",
   "item.tsa.wooden_darkoak_picnic_table": "Wooden Dark Oak Picnic Table",
+
+  "item.tsa.large_darkoak_cabinet_gilded": "Large Gilded Dark Oak Cabinet",
+  "item.tsa.small_darkoak_dresser_gilded": "Small Gilded Dark Oak Dresser",
+  "item.tsa.darkoak_table_gold": "Gilded Dark Oak Table",
+  "item.tsa.darkoak_globe": "Dark Oak Globe",
+  "item.tsa.darkoak_chest": "Dark Oak Chest",
 
   "item.tsa.pile_of_iron_ingots": "Pile of Iron Ingots",
   "item.tsa.pile_of_gold_ingots": "Pile of Gold Ingots",
