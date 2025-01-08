@@ -1,7 +1,11 @@
 {
   "id": "tsa:acacia_chair",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/acacia_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/acacia_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

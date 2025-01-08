@@ -1,7 +1,11 @@
 {
   "id": "tsa:darkoak_table_gold_center_post",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:item/custom/furniture/tables/darkoak_table_gold_center_post",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/darkoak_table_gold_center_post"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

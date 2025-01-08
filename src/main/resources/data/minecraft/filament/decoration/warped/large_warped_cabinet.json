@@ -1,7 +1,11 @@
 {
   "id": "tsa:large_warped_cabinet",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:item/custom/furniture/boards/large_warped_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/large_warped_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

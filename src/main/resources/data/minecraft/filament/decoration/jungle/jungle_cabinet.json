@@ -1,7 +1,11 @@
 {
   "id": "tsa:jungle_cabinet",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:item/custom/furniture/boards/jungle_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/jungle_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

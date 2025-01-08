@@ -1,7 +1,11 @@
 {
   "id": "tsa:birch_table_center_post",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:item/custom/furniture/tables/birch_table_center_post",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/birch_table_center_post"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

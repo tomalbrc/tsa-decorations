@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_jungle_table",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:item/custom/furniture/tables/small_jungle_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/small_jungle_table"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

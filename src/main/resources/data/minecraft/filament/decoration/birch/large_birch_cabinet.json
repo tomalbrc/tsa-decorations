@@ -1,7 +1,11 @@
 {
   "id": "tsa:large_birch_cabinet",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:item/custom/furniture/boards/large_birch_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/large_birch_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

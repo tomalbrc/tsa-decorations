@@ -1,7 +1,11 @@
 {
   "id": "tsa:cut_mangrove_planks",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:item/custom/furniture/misc/cut_mangrove_planks",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_mangrove_planks"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

@@ -1,7 +1,11 @@
 {
   "id": "tsa:cherry_end_table_cabinet",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:item/custom/furniture/boards/cherry_end_table_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/cherry_end_table_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

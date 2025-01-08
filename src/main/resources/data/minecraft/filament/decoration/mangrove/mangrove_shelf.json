@@ -1,7 +1,11 @@
 {
   "id": "tsa:mangrove_shelf",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:item/custom/furniture/shelves/mangrove_shelf",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/shelves/mangrove_shelf"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

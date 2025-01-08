@@ -1,7 +1,11 @@
 {
   "id": "tsa:birch_end_table_cabinet",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:item/custom/furniture/boards/birch_end_table_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/birch_end_table_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

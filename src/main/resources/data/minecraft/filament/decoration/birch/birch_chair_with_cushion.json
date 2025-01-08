@@ -1,7 +1,11 @@
 {
   "id": "tsa:birch_chair_with_cushion",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/birch_chair_with_cushion",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/birch_chair_with_cushion"
+    }
+  },
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

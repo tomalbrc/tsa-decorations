@@ -1,7 +1,11 @@
 {
   "id": "tsa:acacia_bench",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:item/custom/furniture/benches/acacia_bench",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/benches/acacia_bench"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_oak_dresser",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:item/custom/furniture/boards/small_oak_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/small_oak_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

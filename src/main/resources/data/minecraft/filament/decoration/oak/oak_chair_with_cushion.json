@@ -1,7 +1,11 @@
 {
   "id": "tsa:oak_chair_with_cushion",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/oak_chair_with_cushion",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/oak_chair_with_cushion"
+    }
+  },
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

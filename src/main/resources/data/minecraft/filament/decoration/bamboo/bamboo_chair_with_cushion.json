@@ -1,7 +1,11 @@
 {
   "id": "tsa:bamboo_chair_with_cushion",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/bamboo_chair_with_cushion",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/bamboo_chair_with_cushion"
+    }
+  },
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

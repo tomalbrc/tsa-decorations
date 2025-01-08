@@ -1,7 +1,11 @@
 {
   "id": "tsa:mangrove_cabinet",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:item/custom/furniture/boards/mangrove_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/mangrove_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

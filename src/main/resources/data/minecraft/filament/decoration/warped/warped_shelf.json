@@ -1,7 +1,11 @@
 {
   "id": "tsa:warped_shelf",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:item/custom/furniture/shelves/warped_shelf",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/shelves/warped_shelf"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

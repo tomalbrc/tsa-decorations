@@ -1,7 +1,11 @@
 {
   "id": "tsa:scattered_gold_coins",
   "group": "tsa:decorations",
-  "model": "minecraft:item/custom/furniture/misc/scattered_gold_coins",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/scattered_gold_coins"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

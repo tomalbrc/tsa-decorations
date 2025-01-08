@@ -1,7 +1,11 @@
 {
   "id": "tsa:mangrove_end_table_cabinet",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:item/custom/furniture/boards/mangrove_end_table_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/mangrove_end_table_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

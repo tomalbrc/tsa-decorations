@@ -1,7 +1,11 @@
 {
   "id": "tsa:warped_bench",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:item/custom/furniture/benches/warped_bench",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/benches/warped_bench"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

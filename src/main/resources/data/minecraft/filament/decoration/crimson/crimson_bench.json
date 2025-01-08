@@ -1,7 +1,11 @@
 {
   "id": "tsa:crimson_bench",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:item/custom/furniture/benches/crimson_bench",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/benches/crimson_bench"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

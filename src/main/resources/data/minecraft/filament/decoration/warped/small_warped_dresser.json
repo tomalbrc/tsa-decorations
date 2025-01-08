@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_warped_dresser",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:item/custom/furniture/boards/small_warped_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/small_warped_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

@@ -1,7 +1,11 @@
 {
   "id": "tsa:wooden_oak_bench",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:item/custom/furniture/benches/wooden_oak_bench",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/benches/wooden_oak_bench"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

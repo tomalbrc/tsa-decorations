@@ -1,7 +1,11 @@
 {
   "id": "tsa:bamboo_table_center_post",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:item/custom/furniture/tables/bamboo_table_center_post",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/bamboo_table_center_post"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

@@ -1,7 +1,11 @@
 {
   "id": "tsa:oak_chair",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/oak_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/oak_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

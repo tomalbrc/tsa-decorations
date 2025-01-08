@@ -1,7 +1,11 @@
 {
   "id": "tsa:spruce_chair",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/spruce_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/spruce_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

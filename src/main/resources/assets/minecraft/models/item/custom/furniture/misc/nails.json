@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "item/furniture/misc/nails"
+    "layer0": "minecraft:item/furniture/misc/nails"
   }
 }

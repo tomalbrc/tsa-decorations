@@ -1,7 +1,11 @@
 {
   "id": "tsa:crimson_table_center_post",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:item/custom/furniture/tables/crimson_table_center_post",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/crimson_table_center_post"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

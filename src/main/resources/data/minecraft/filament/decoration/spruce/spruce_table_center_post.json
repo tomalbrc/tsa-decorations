@@ -1,7 +1,11 @@
 {
   "id": "tsa:spruce_table_center_post",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:item/custom/furniture/tables/spruce_table_center_post",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/spruce_table_center_post"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

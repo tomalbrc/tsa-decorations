@@ -1,7 +1,11 @@
 {
   "id": "tsa:warped_chair",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/warped_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/warped_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

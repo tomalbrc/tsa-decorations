@@ -1,7 +1,11 @@
 {
   "id": "tsa:jungle_chair",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/jungle_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/jungle_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

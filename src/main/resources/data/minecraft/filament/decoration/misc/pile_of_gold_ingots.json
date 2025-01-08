@@ -1,7 +1,11 @@
 {
   "id": "tsa:pile_of_gold_ingots",
   "group": "tsa:decorations",
-  "model": "minecraft:item/custom/furniture/misc/pile_of_gold_ingots",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/pile_of_gold_ingots"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

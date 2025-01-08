@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_bamboo_table",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:item/custom/furniture/tables/small_bamboo_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/small_bamboo_table"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

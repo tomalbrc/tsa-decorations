@@ -1,6 +1,10 @@
 {
   "id": "tsa:wooden_spruce_picnic_table",
-  "model": "minecraft:item/custom/furniture/tables/wooden_spruce_picnic_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/wooden_spruce_picnic_table"
+    }
+  },
   "group": "tsa:spruce_furniture",
   "properties": {
     "rotate": true,

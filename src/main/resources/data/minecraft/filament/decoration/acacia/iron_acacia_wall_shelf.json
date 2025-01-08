@@ -1,7 +1,11 @@
 {
   "id": "tsa:iron_acacia_wall_shelf",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:item/custom/furniture/shelves/iron_acacia_wall_shelf",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/shelves/iron_acacia_wall_shelf"
+    }
+  },
   "properties": {
     "placement": {
       "wall": true

@@ -1,7 +1,11 @@
 {
   "id": "tsa:oak_table_center_post",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:item/custom/furniture/tables/oak_table_center_post",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/oak_table_center_post"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

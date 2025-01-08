@@ -1,7 +1,11 @@
 {
   "id": "tsa:oak_table",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:item/custom/furniture/tables/oak_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/oak_table"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

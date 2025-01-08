@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_acacia_table",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:item/custom/furniture/tables/small_acacia_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/small_acacia_table"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

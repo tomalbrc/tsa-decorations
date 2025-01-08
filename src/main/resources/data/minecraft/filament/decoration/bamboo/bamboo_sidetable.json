@@ -1,7 +1,11 @@
 {
   "id": "tsa:bamboo_sidetable",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:item/custom/furniture/boards/bamboo_sidetable",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/bamboo_sidetable"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

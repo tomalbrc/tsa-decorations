@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_bamboo_dresser",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:item/custom/furniture/boards/small_bamboo_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/small_bamboo_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

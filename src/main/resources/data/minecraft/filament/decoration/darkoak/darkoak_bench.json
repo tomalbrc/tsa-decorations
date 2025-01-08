@@ -1,7 +1,11 @@
 {
   "id": "tsa:darkoak_bench",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:item/custom/furniture/benches/darkoak_bench",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/benches/darkoak_bench"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

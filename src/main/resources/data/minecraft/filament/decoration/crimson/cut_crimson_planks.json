@@ -1,7 +1,11 @@
 {
   "id": "tsa:cut_crimson_planks",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:item/custom/furniture/misc/cut_crimson_planks",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_crimson_planks"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

@@ -1,7 +1,11 @@
 {
   "id": "tsa:crimson_chair",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/crimson_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/crimson_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

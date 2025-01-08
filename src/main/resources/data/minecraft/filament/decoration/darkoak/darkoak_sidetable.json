@@ -1,7 +1,11 @@
 {
   "id": "tsa:darkoak_sidetable",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:item/custom/furniture/boards/darkoak_sidetable",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/darkoak_sidetable"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

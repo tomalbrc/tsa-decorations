@@ -1,7 +1,11 @@
 {
   "id": "tsa:mangrove_park_bench",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:item/custom/furniture/benches/mangrove_park_bench",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/benches/mangrove_park_bench"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

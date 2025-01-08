@@ -1,7 +1,11 @@
 {
   "id": "tsa:darkoak_dresser",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:item/custom/furniture/boards/darkoak_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/darkoak_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

@@ -1,7 +1,11 @@
 {
   "id": "tsa:cut_cherry_planks",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:item/custom/furniture/misc/cut_cherry_planks",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_cherry_planks"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

@@ -1,7 +1,11 @@
 {
   "id": "tsa:cut_acacia_planks",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:item/custom/furniture/misc/cut_acacia_planks",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_acacia_planks"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

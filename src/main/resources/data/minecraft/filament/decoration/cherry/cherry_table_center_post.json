@@ -1,7 +1,11 @@
 {
   "id": "tsa:cherry_table_center_post",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:item/custom/furniture/tables/cherry_table_center_post",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/cherry_table_center_post"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

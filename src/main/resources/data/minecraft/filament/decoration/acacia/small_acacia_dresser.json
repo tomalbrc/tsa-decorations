@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_acacia_dresser",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:item/custom/furniture/boards/small_acacia_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/small_acacia_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

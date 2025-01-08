@@ -1,7 +1,11 @@
 {
   "id": "tsa:oak_sidetable",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:item/custom/furniture/boards/oak_sidetable",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/oak_sidetable"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

@@ -1,7 +1,11 @@
 {
   "id": "tsa:cut_spruce_planks",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:item/custom/furniture/misc/cut_spruce_planks",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_spruce_planks"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

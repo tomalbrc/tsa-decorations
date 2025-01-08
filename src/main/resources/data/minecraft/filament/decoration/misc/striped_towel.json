@@ -1,7 +1,11 @@
 {
   "id": "tsa:striped_towel",
   "group": "tsa:decorations",
-  "model": "minecraft:item/custom/furniture/misc/striped_towel",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/striped_towel"
+    }
+  },
   "vanillaItem": "minecraft:leather_horse_armor",
   "properties": {
     "rotate": true,

@@ -1,7 +1,11 @@
 {
   "id": "tsa:crimson_end_table_cabinet",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:item/custom/furniture/boards/crimson_end_table_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/crimson_end_table_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

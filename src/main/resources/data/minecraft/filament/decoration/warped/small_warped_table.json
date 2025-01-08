@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_warped_table",
   "group": "tsa:warped_furniture",
-  "model": "minecraft:item/custom/furniture/tables/small_warped_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/small_warped_table"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

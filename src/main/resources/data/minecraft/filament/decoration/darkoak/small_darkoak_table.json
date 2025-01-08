@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_darkoak_table",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:item/custom/furniture/tables/small_darkoak_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/small_darkoak_table"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

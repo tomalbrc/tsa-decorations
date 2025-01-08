@@ -1,7 +1,11 @@
 {
   "id": "tsa:cut_oak_planks",
   "group": "tsa:oak_furniture",
-  "model": "minecraft:item/custom/furniture/misc/cut_oak_planks",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_oak_planks"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_birch_table",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:item/custom/furniture/tables/small_birch_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/small_birch_table"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

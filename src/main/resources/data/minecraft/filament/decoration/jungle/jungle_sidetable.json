@@ -1,7 +1,11 @@
 {
   "id": "tsa:jungle_sidetable",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:item/custom/furniture/boards/jungle_sidetable",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/jungle_sidetable"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

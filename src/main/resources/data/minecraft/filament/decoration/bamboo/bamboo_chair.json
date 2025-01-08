@@ -1,7 +1,11 @@
 {
   "id": "tsa:bamboo_chair",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/bamboo_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/bamboo_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

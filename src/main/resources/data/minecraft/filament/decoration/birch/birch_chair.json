@@ -1,7 +1,11 @@
 {
   "id": "tsa:birch_chair",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/birch_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/birch_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

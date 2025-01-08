@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_birch_dresser",
   "group": "tsa:birch_furniture",
-  "model": "minecraft:item/custom/furniture/boards/small_birch_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/small_birch_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

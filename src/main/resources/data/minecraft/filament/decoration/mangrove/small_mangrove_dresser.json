@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_mangrove_dresser",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:item/custom/furniture/boards/small_mangrove_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/small_mangrove_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

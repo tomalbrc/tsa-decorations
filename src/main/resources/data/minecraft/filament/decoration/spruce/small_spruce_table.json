@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_spruce_table",
   "group": "tsa:spruce_furniture",
-  "model": "minecraft:item/custom/furniture/tables/small_spruce_table",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/small_spruce_table"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

@@ -1,7 +1,11 @@
 {
   "id": "tsa:jungle_table_center_post",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:item/custom/furniture/tables/jungle_table_center_post",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/jungle_table_center_post"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

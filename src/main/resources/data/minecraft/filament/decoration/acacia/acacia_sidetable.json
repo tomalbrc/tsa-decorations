@@ -1,7 +1,11 @@
 {
   "id": "tsa:acacia_sidetable",
   "group": "tsa:acacia_furniture",
-  "model": "minecraft:item/custom/furniture/boards/acacia_sidetable",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/acacia_sidetable"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

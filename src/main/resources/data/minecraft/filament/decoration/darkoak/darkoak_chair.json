@@ -1,7 +1,11 @@
 {
   "id": "tsa:darkoak_chair",
   "group": "tsa:darkoak_furniture",
-  "model": "minecraft:item/custom/furniture/chairs/darkoak_chair",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/chairs/darkoak_chair"
+    }
+  },
   "properties": {
     "rotate": true,
 	"rotateSmooth": true,

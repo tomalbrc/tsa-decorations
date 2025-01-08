@@ -1,7 +1,11 @@
 {
   "id": "tsa:crimson_dresser",
   "group": "tsa:crimson_furniture",
-  "model": "minecraft:item/custom/furniture/boards/crimson_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/crimson_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

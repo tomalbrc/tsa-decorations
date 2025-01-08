@@ -1,7 +1,11 @@
 {
   "id": "tsa:wooden_mangrove_bench",
   "group": "tsa:mangrove_furniture",
-  "model": "minecraft:item/custom/furniture/benches/wooden_mangrove_bench",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/benches/wooden_mangrove_bench"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true,

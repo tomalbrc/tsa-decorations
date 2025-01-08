@@ -1,7 +1,11 @@
 {
   "id": "tsa:cut_bamboo_planks",
   "group": "tsa:bamboo_furniture",
-  "model": "minecraft:item/custom/furniture/misc/cut_bamboo_planks",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_bamboo_planks"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

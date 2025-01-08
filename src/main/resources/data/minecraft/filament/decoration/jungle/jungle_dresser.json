@@ -1,7 +1,11 @@
 {
   "id": "tsa:jungle_dresser",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:item/custom/furniture/boards/jungle_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/jungle_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

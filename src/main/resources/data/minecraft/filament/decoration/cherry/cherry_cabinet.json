@@ -1,7 +1,11 @@
 {
   "id": "tsa:cherry_cabinet",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:item/custom/furniture/boards/cherry_cabinet",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/cherry_cabinet"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,

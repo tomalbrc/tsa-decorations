@@ -1,7 +1,11 @@
 {
   "id": "tsa:cut_jungle_planks",
   "group": "tsa:jungle_furniture",
-  "model": "minecraft:item/custom/furniture/misc/cut_jungle_planks",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_jungle_planks"
+    }
+  },
   "properties": {
     "rotate": true,
     "rotateSmooth": true

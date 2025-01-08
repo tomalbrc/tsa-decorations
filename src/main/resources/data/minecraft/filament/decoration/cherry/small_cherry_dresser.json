@@ -1,7 +1,11 @@
 {
   "id": "tsa:small_cherry_dresser",
   "group": "tsa:cherry_furniture",
-  "model": "minecraft:item/custom/furniture/boards/small_cherry_dresser",
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/small_cherry_dresser"
+    }
+  },
   "properties": {
     "rotate": true,
     "destroyTime": 2,
