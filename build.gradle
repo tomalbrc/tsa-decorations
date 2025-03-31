@@ -34,7 +34,7 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     modImplementation include("eu.pb4:sgui:${project.sgui_version}")
-    modImplementation include("eu.pb4:placeholder-api:2.4.1+1.21")
+    modImplementation include("eu.pb4:placeholder-api:2.6.2+1.21.5")
 
     modImplementation ("eu.pb4:polymer-core:${project.polymer_version}")
     modImplementation ("eu.pb4:polymer-resource-pack:${project.polymer_version}")
