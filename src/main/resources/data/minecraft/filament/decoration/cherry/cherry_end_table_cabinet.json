@@ -1,6 +1,7 @@
 {
   "id": "tsa:cherry_end_table_cabinet",
   "group": "tsa:cherry_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/cherry_end_table_cabinet"

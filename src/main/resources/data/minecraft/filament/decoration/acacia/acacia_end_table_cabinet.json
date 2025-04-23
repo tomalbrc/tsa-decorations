@@ -1,6 +1,7 @@
 {
   "id": "tsa:acacia_end_table_cabinet",
   "group": "tsa:acacia_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/acacia_end_table_cabinet"

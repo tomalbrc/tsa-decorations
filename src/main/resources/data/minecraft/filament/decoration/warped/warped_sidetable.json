@@ -1,6 +1,7 @@
 {
   "id": "tsa:warped_sidetable",
   "group": "tsa:warped_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/warped_sidetable"

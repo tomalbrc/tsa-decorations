@@ -1,6 +1,7 @@
 {
   "id": "tsa:acacia_dresser",
   "group": "tsa:acacia_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/acacia_dresser"

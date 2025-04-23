@@ -1,6 +1,7 @@
 {
   "id": "tsa:acacia_table_center_post",
   "group": "tsa:acacia_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/acacia_table_center_post"

@@ -1,6 +1,7 @@
 {
   "id": "tsa:iron_jungle_wall_shelf",
   "group": "tsa:jungle_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/iron_jungle_wall_shelf"

@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_spruce_bench",
   "group": "tsa:spruce_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/wooden_spruce_bench"

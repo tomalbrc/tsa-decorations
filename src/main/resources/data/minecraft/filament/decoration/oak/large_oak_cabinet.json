@@ -1,6 +1,7 @@
 {
   "id": "tsa:large_oak_cabinet",
   "group": "tsa:oak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/large_oak_cabinet"

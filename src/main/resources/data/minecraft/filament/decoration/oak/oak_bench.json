@@ -1,6 +1,7 @@
 {
   "id": "tsa:oak_bench",
   "group": "tsa:oak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/oak_bench"

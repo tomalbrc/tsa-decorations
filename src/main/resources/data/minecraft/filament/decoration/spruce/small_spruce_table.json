@@ -1,6 +1,7 @@
 {
   "id": "tsa:small_spruce_table",
   "group": "tsa:spruce_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/small_spruce_table"

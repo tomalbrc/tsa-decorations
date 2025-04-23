@@ -1,6 +1,7 @@
 {
   "id": "tsa:oak_shelf",
   "group": "tsa:oak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/oak_shelf"

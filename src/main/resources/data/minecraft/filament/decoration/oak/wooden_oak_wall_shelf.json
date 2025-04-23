@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_oak_wall_shelf",
   "group": "tsa:oak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/wooden_oak_wall_shelf"

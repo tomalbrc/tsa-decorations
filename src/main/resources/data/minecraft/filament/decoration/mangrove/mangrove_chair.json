@@ -1,6 +1,7 @@
 {
   "id": "tsa:mangrove_chair",
   "group": "tsa:mangrove_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/chairs/mangrove_chair"

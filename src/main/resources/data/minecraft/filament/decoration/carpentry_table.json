@@ -1,6 +1,7 @@
 {
   "id": "tsa:carpentry_table",
   "group": "tsa:decorations",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/carpentry_table"

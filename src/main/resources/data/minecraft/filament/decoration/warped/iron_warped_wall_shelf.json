@@ -1,6 +1,7 @@
 {
   "id": "tsa:iron_warped_wall_shelf",
   "group": "tsa:warped_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/iron_warped_wall_shelf"

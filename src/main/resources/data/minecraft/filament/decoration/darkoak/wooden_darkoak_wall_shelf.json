@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_darkoak_wall_shelf",
   "group": "tsa:darkoak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/wooden_darkoak_wall_shelf"

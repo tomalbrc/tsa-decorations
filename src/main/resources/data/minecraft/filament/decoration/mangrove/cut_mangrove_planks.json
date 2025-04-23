@@ -1,6 +1,7 @@
 {
   "id": "tsa:cut_mangrove_planks",
   "group": "tsa:mangrove_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/cut_mangrove_planks"

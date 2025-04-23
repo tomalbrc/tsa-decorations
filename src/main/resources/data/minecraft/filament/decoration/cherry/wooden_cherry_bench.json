@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_cherry_bench",
   "group": "tsa:cherry_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/wooden_cherry_bench"

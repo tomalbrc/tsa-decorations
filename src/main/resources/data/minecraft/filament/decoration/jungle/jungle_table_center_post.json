@@ -1,6 +1,7 @@
 {
   "id": "tsa:jungle_table_center_post",
   "group": "tsa:jungle_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/jungle_table_center_post"

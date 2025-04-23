@@ -1,6 +1,7 @@
 {
   "id": "tsa:warped_end_table_cabinet",
   "group": "tsa:warped_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/warped_end_table_cabinet"

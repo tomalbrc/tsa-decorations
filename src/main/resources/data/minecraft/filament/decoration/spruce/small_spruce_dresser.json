@@ -1,6 +1,7 @@
 {
   "id": "tsa:small_spruce_dresser",
   "group": "tsa:spruce_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/small_spruce_dresser"

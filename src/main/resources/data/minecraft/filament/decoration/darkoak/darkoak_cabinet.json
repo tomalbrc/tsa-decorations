@@ -1,6 +1,7 @@
 {
   "id": "tsa:darkoak_cabinet",
   "group": "tsa:darkoak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/darkoak_cabinet"

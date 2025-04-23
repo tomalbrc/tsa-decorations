@@ -1,6 +1,7 @@
 {
   "id": "tsa:bamboo_park_bench",
   "group": "tsa:bamboo_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/bamboo_park_bench"

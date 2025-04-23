@@ -1,6 +1,7 @@
 {
   "id": "tsa:small_gold_coin_piles",
   "group": "tsa:decorations",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/small_gold_coin_piles"

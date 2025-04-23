@@ -1,6 +1,7 @@
 {
   "id": "tsa:small_oak_dresser",
   "group": "tsa:oak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/small_oak_dresser"

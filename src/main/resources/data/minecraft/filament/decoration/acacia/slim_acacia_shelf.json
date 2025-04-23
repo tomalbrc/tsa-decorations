@@ -1,6 +1,7 @@
 {
   "id": "tsa:slim_acacia_shelf",
   "group": "tsa:acacia_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/slim_acacia_shelf"

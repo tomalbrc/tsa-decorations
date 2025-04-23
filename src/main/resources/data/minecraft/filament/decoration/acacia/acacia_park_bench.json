@@ -1,6 +1,7 @@
 {
   "id": "tsa:acacia_park_bench",
   "group": "tsa:acacia_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/acacia_park_bench"

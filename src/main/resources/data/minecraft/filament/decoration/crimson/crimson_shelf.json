@@ -1,6 +1,7 @@
 {
   "id": "tsa:crimson_shelf",
   "group": "tsa:crimson_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/crimson_shelf"

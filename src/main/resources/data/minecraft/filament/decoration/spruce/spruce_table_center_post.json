@@ -1,6 +1,7 @@
 {
   "id": "tsa:spruce_table_center_post",
   "group": "tsa:spruce_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/spruce_table_center_post"

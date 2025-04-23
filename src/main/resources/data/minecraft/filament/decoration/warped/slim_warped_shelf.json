@@ -1,6 +1,7 @@
 {
   "id": "tsa:slim_warped_shelf",
   "group": "tsa:warped_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/slim_warped_shelf"

@@ -1,6 +1,7 @@
 {
   "id": "tsa:small_cherry_dresser",
   "group": "tsa:cherry_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/small_cherry_dresser"

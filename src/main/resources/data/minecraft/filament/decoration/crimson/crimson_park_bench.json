@@ -1,6 +1,7 @@
 {
   "id": "tsa:crimson_park_bench",
   "group": "tsa:crimson_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/crimson_park_bench"

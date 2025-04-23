@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_cherry_wall_shelf",
   "group": "tsa:cherry_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/wooden_cherry_wall_shelf"

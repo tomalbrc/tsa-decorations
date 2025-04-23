@@ -1,6 +1,7 @@
 {
   "id": "tsa:crimson_sidetable",
   "group": "tsa:crimson_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/crimson_sidetable"

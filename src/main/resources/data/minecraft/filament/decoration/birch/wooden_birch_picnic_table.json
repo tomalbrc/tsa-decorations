@@ -1,5 +1,6 @@
 {
   "id": "tsa:wooden_birch_picnic_table",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/wooden_birch_picnic_table"

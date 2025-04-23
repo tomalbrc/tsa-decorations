@@ -1,6 +1,7 @@
 {
   "id": "tsa:large_birch_cabinet",
   "group": "tsa:birch_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/large_birch_cabinet"

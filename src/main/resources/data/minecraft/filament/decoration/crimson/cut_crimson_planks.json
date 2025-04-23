@@ -1,6 +1,7 @@
 {
   "id": "tsa:cut_crimson_planks",
   "group": "tsa:crimson_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/cut_crimson_planks"

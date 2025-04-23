@@ -1,6 +1,7 @@
 {
   "id": "tsa:warped_chair_with_cushion",
   "group": "tsa:warped_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/chairs/warped_chair_with_cushion"

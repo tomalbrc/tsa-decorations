@@ -1,6 +1,7 @@
 {
   "id": "tsa:spruce_chair",
   "group": "tsa:spruce_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/chairs/spruce_chair"

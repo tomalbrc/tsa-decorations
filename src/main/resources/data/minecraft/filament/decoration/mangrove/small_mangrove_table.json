@@ -1,6 +1,7 @@
 {
   "id": "tsa:small_mangrove_table",
   "group": "tsa:mangrove_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/small_mangrove_table"

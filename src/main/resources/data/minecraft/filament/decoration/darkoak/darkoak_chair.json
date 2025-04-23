@@ -1,6 +1,7 @@
 {
   "id": "tsa:darkoak_chair",
   "group": "tsa:darkoak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/chairs/darkoak_chair"

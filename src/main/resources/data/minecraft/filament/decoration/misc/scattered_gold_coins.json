@@ -1,6 +1,7 @@
 {
   "id": "tsa:scattered_gold_coins",
   "group": "tsa:decorations",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/scattered_gold_coins"

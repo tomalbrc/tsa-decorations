@@ -1,6 +1,7 @@
 {
   "id": "tsa:acacia_chair",
   "group": "tsa:acacia_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/chairs/acacia_chair"

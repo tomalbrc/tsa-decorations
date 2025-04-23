@@ -1,6 +1,7 @@
 {
   "id": "tsa:mangrove_end_table_cabinet",
   "group": "tsa:mangrove_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/mangrove_end_table_cabinet"

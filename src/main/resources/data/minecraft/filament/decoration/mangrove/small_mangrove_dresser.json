@@ -1,6 +1,7 @@
 {
   "id": "tsa:small_mangrove_dresser",
   "group": "tsa:mangrove_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/small_mangrove_dresser"

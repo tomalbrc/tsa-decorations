@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_warped_bench",
   "group": "tsa:warped_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/wooden_warped_bench"

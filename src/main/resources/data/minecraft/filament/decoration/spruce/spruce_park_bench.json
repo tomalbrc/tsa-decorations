@@ -1,6 +1,7 @@
 {
   "id": "tsa:spruce_park_bench",
   "group": "tsa:spruce_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/spruce_park_bench"

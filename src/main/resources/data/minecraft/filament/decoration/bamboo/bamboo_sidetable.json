@@ -1,6 +1,7 @@
 {
   "id": "tsa:bamboo_sidetable",
   "group": "tsa:bamboo_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/bamboo_sidetable"

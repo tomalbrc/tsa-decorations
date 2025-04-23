@@ -1,6 +1,7 @@
 {
   "id": "tsa:cut_cherry_planks",
   "group": "tsa:cherry_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/cut_cherry_planks"

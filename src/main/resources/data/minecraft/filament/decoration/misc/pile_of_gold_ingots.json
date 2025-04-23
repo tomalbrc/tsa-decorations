@@ -1,6 +1,7 @@
 {
   "id": "tsa:pile_of_gold_ingots",
   "group": "tsa:decorations",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/pile_of_gold_ingots"

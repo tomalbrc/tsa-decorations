@@ -1,6 +1,5 @@
 package de.tomalbrc.decorations.carpentry;
 
-import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import eu.pb4.polymer.core.api.utils.PolymerObject;
@@ -9,11 +8,11 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 
@@ -43,21 +42,38 @@ public class CarpentryRecipe implements PolymerObject, Recipe<CraftingInput> {
 
     @Override
     public boolean matches(CraftingInput recipeInput, Level level) {
-        if (recipeInput.size() < 2 || (recipeInput.size() < 3 && this.trimIngredient.isPresent()))
-            return false;
+        List<Ingredient> expected = new ObjectArrayList<>();
+        expected.add(this.ingredient);
+        expected.add(this.baseIngredient);
+        this.trimIngredient.ifPresent(expected::add);
 
-        List<Ingredient> list = ObjectArrayList.of(this.ingredient, this.baseIngredient);
-        this.trimIngredient.ifPresent(list::add);
-
-        boolean matches = false;
-        for (int i = 0; i < list.size() && recipeInput.size() == list.size(); i++) {
-            var item = recipeInput.getItem(i);
-            matches = list.get(i).test(item);
-            if (!matches)
-                return false;
+        List<ItemStack> inputs = new ObjectArrayList<>();
+        for (int i = 0; i < recipeInput.size(); i++) {
+            ItemStack stack = recipeInput.getItem(i);
+            if (!stack.isEmpty()) {
+                inputs.add(stack);
+            }
         }
 
-        return matches;
+        if (inputs.size() != expected.size()) {
+            return false;
+        }
+
+        for (Ingredient ingredient : expected) {
+            boolean matched = false;
+            Iterator<ItemStack> iter = inputs.iterator();
+            while (iter.hasNext()) {
+                ItemStack stack = iter.next();
+                if (ingredient.test(stack)) {
+                    iter.remove(); // Prevent reuse
+                    matched = true;
+                    break;
+                }
+            }
+            if (!matched) return false;
+        }
+
+        return true;
     }
 
     @Override

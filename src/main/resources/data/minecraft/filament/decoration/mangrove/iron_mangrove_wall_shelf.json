@@ -1,6 +1,7 @@
 {
   "id": "tsa:iron_mangrove_wall_shelf",
   "group": "tsa:mangrove_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/iron_mangrove_wall_shelf"

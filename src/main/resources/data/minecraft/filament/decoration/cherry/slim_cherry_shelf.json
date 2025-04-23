@@ -1,6 +1,7 @@
 {
   "id": "tsa:slim_cherry_shelf",
   "group": "tsa:cherry_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/slim_cherry_shelf"

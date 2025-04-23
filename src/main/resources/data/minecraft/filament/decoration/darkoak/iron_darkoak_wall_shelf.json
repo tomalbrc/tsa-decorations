@@ -1,6 +1,7 @@
 {
   "id": "tsa:iron_darkoak_wall_shelf",
   "group": "tsa:darkoak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/iron_darkoak_wall_shelf"

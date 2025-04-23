@@ -1,6 +1,7 @@
 {
   "id": "tsa:birch_bench",
   "group": "tsa:birch_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/birch_bench"

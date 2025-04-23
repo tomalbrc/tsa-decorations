@@ -1,6 +1,7 @@
 {
   "id": "tsa:darkoak_globe",
   "group": "tsa:darkoak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/darkoak_globe"

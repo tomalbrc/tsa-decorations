@@ -1,6 +1,7 @@
 {
   "id": "tsa:small_warped_table",
   "group": "tsa:warped_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/small_warped_table"

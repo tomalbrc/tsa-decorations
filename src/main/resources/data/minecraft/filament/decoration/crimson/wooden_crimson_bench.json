@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_crimson_bench",
   "group": "tsa:crimson_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/wooden_crimson_bench"

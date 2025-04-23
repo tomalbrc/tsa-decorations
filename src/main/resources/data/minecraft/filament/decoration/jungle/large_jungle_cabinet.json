@@ -1,6 +1,7 @@
 {
   "id": "tsa:large_jungle_cabinet",
   "group": "tsa:jungle_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/large_jungle_cabinet"

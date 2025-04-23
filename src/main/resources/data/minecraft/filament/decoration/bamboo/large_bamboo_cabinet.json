@@ -1,6 +1,7 @@
 {
   "id": "tsa:large_bamboo_cabinet",
   "group": "tsa:bamboo_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/large_bamboo_cabinet"

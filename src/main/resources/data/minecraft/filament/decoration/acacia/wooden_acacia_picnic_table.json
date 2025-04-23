@@ -1,5 +1,6 @@
 {
   "id": "tsa:wooden_acacia_picnic_table",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/wooden_acacia_picnic_table"

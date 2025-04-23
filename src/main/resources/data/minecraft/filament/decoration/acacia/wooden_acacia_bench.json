@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_acacia_bench",
   "group": "tsa:acacia_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/wooden_acacia_bench"

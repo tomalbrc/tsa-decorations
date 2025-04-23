@@ -1,6 +1,7 @@
 {
   "id": "tsa:oak_table_center_post",
   "group": "tsa:oak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/oak_table_center_post"

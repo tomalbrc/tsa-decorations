@@ -1,6 +1,7 @@
 {
   "id": "tsa:cut_warped_planks",
   "group": "tsa:warped_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/cut_warped_planks"

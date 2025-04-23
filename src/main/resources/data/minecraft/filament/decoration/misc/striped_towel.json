@@ -1,6 +1,7 @@
 {
   "id": "tsa:striped_towel",
   "group": "tsa:decorations",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/striped_towel"

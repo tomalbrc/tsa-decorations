@@ -1,6 +1,7 @@
 {
   "id": "tsa:birch_table_center_post",
   "group": "tsa:birch_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/birch_table_center_post"

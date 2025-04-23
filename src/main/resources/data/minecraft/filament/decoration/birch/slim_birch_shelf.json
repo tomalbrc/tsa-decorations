@@ -1,6 +1,7 @@
 {
   "id": "tsa:slim_birch_shelf",
   "group": "tsa:birch_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/slim_birch_shelf"

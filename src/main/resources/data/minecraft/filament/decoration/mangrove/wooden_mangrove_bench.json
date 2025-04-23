@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_mangrove_bench",
   "group": "tsa:mangrove_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/wooden_mangrove_bench"

@@ -1,6 +1,7 @@
 {
   "id": "tsa:cherry_table_center_post",
   "group": "tsa:cherry_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/tables/cherry_table_center_post"

@@ -1,6 +1,7 @@
 {
   "id": "tsa:mangrove_sidetable",
   "group": "tsa:mangrove_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/mangrove_sidetable"

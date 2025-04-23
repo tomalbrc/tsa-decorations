@@ -1,6 +1,7 @@
 {
   "id": "tsa:wooden_jungle_bench",
   "group": "tsa:jungle_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/wooden_jungle_bench"

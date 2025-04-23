@@ -1,6 +1,7 @@
 {
   "id": "tsa:oak_sidetable",
   "group": "tsa:oak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/oak_sidetable"

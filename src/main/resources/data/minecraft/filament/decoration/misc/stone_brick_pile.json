@@ -1,6 +1,7 @@
 {
   "id": "tsa:stone_brick_pile",
   "group": "tsa:decorations",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/misc/stone_brick_pile"

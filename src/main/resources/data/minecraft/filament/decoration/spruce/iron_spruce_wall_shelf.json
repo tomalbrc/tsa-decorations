@@ -1,6 +1,7 @@
 {
   "id": "tsa:iron_spruce_wall_shelf",
   "group": "tsa:spruce_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/shelves/iron_spruce_wall_shelf"

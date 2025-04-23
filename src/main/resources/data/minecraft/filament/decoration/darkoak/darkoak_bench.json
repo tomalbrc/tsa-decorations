@@ -1,6 +1,7 @@
 {
   "id": "tsa:darkoak_bench",
   "group": "tsa:darkoak_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/benches/darkoak_bench"

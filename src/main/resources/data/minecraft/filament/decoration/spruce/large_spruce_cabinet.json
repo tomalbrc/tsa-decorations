@@ -1,6 +1,7 @@
 {
   "id": "tsa:large_spruce_cabinet",
   "group": "tsa:spruce_furniture",
+  "blockTags": ["shulker_boxes"],
   "itemResource": {
     "models": {
       "default": "minecraft:item/custom/furniture/boards/large_spruce_cabinet"
