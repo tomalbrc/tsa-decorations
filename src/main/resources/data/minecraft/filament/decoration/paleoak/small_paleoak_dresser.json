@@ -1,0 +1,21 @@
+{
+  "id": "tsa:small_paleoak_dresser",
+  "group": "tsa:paleoak_furniture",
+  "blockTags": ["shulker_boxes"],
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/small_paleoak_dresser"
+    }
+  },
+  "properties": {
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,2,1]
+    }
+  ]
+}

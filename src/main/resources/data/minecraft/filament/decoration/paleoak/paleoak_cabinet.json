@@ -1,0 +1,21 @@
+{
+  "id": "tsa:paleoak_cabinet",
+  "group": "tsa:paleoak_furniture",
+  "blockTags": ["shulker_boxes"],
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/boards/paleoak_cabinet"
+    }
+  },
+  "properties": {
+    "rotate": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [2,2,1]
+    }
+  ]
+}

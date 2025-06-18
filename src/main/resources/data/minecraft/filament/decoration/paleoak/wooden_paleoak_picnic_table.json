@@ -1,0 +1,64 @@
+{
+  "id": "tsa:wooden_paleoak_picnic_table",
+  "blockTags": ["shulker_boxes"],
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/wooden_paleoak_picnic_table"
+    }
+  },
+  "group": "tsa:paleoak_furniture",
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "behaviour": {
+    "seat": [
+      {
+        "offset": [
+          0,
+          0.3,
+          0.5
+        ],
+        "direction": 0
+      },
+      {
+        "offset": [
+          1,
+          0.3,
+          0.5
+        ],
+        "direction": 0
+      },
+      {
+        "offset": [
+          0,
+          0.3,
+          -1.5
+        ]
+      },
+      {
+        "offset": [
+          1,
+          0.3,
+          -1.5
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "origin": [
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        2,
+        1,
+        2
+      ]
+    }
+  ]
+}

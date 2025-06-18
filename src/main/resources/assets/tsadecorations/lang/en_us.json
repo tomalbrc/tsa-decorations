@@ -12,6 +12,7 @@
   "tsa.itemGroup.mangrove_furniture": "Mangrove Furniture",
   "tsa.itemGroup.birch_furniture": "Birch Furniture",
   "tsa.itemGroup.darkoak_furniture": "Dark Oak Furniture",
+  "tsa.itemGroup.paleoak_furniture": "Pale Oak Furniture",
   "tsa.itemGroup.decorations": "Decorations & Misc.",
 
   "block.tsa.carpentry_table": "Carpentry Table",
@@ -27,6 +28,7 @@
   "block.tsa.cut_mangrove_planks": "Cut Mangrove Planks",
   "block.tsa.cut_birch_planks": "Cut Birch Planks",
   "block.tsa.cut_darkoak_planks": "Cut Dark Oak Planks",
+  "block.tsa.paleoak_planks": "Cut Pale Oak Planks",
 
   "block.tsa.acacia_bench": "Acacia Iron Bench",
   "block.tsa.oak_bench": "Oak Iron Bench",
@@ -39,6 +41,7 @@
   "block.tsa.mangrove_bench": "Mangrove Iron Bench",
   "block.tsa.birch_bench": "Birch Iron Bench",
   "block.tsa.darkoak_bench": "Dark Oak Iron Bench",
+  "block.tsa.paleoak_bench": "Pale Oak Iron Bench",
 
   "block.tsa.wooden_acacia_bench": "Wooden Acacia Bench",
   "block.tsa.wooden_oak_bench": "Wooden Oak Bench",
@@ -51,6 +54,7 @@
   "block.tsa.wooden_mangrove_bench": "Wooden Mangrove Bench",
   "block.tsa.wooden_birch_bench": "Wooden Birch Bench",
   "block.tsa.wooden_darkoak_bench": "Wooden Dark Oak Bench",
+  "block.tsa.wooden_paleoak_bench": "Wooden Pale Oak Bench",
 
   "block.tsa.acacia_dresser": "Acacia Dresser",
   "block.tsa.oak_dresser": "Oak Dresser",
@@ -63,18 +67,20 @@
   "block.tsa.mangrove_dresser": "Mangrove Dresser",
   "block.tsa.birch_dresser": "Birch Dresser",
   "block.tsa.darkoak_dresser": "Dark Oak Dresser",
+  "block.tsa.paleoak_dresser": "Pale Oak Dresser",
 
-  "block.tsa.small_acacia_dresser": "Acacia Dresser",
-  "block.tsa.small_oak_dresser": "Oak Dresser",
-  "block.tsa.small_spruce_dresser": "Spruce Dresser",
-  "block.tsa.small_jungle_dresser": "Jungle Dresser",
-  "block.tsa.small_crimson_dresser": "Crimson Dresser",
-  "block.tsa.small_warped_dresser": "Warped Dresser",
-  "block.tsa.small_cherry_dresser": "Cherry Dresser",
-  "block.tsa.small_bamboo_dresser": "Bamboo Dresser",
-  "block.tsa.small_mangrove_dresser": "Mangrove Dresser",
-  "block.tsa.small_birch_dresser": "Birch Dresser",
-  "block.tsa.small_darkoak_dresser": "Dark Oak Dresser",
+  "block.tsa.small_acacia_dresser": "Small Acacia Dresser",
+  "block.tsa.small_oak_dresser": "Small Oak Dresser",
+  "block.tsa.small_spruce_dresser": "Small Spruce Dresser",
+  "block.tsa.small_jungle_dresser": "Small Jungle Dresser",
+  "block.tsa.small_crimson_dresser": "Small Crimson Dresser",
+  "block.tsa.small_warped_dresser": "Small Warped Dresser",
+  "block.tsa.small_cherry_dresser": "Small Cherry Dresser",
+  "block.tsa.small_bamboo_dresser": "Small Bamboo Dresser",
+  "block.tsa.small_mangrove_dresser": "Small Mangrove Dresser",
+  "block.tsa.small_birch_dresser": "Small Birch Dresser",
+  "block.tsa.small_darkoak_dresser": "Small Dark Oak Dresser",
+  "block.tsa.small_paleoak_dresser": "Small Pale Oak Dresser",
 
   "block.tsa.darkoak_secretary_desk": "Dark Oak Secretary Desk",
   "block.tsa.large_darkoak_secretary_desk": "Large Dark Oak Secretary Desk",
@@ -91,6 +97,7 @@
   "block.tsa.mangrove_table_center_post": "Mangrove Centerpiece Table",
   "block.tsa.birch_table_center_post": "Birch Centerpiece Table",
   "block.tsa.darkoak_table_center_post": "Dark Oak Centerpiece Table",
+  "block.tsa.paleoak_table_center_post": "Pale Oak Centerpiece Table",
 
   "block.tsa.darkoak_table_gold_center_post": "Gilded Dark Oak Centerpiece Table",
 
@@ -105,6 +112,7 @@
   "block.tsa.mangrove_table": "Mangrove Table",
   "block.tsa.birch_table": "Birch Table",
   "block.tsa.darkoak_table": "Dark Oak Table",
+  "block.tsa.paleoak_table": "Pale Oak Table",
 
   "block.tsa.acacia_end_table_cabinet": "Acacia End Table Cabinet",
   "block.tsa.oak_end_table_cabinet": "Oak End Table Cabinet",
@@ -117,6 +125,7 @@
   "block.tsa.mangrove_end_table_cabinet": "Mangrove End Table Cabinet",
   "block.tsa.birch_end_table_cabinet": "Birch End Table Cabinet",
   "block.tsa.darkoak_end_table_cabinet": "Dark Oak End Table Cabinet",
+  "block.tsa.paleoak_end_table_cabinet": "Pale Oak End Table Cabinet",
 
   "block.tsa.darkoak_end_table_cabinet_gilded": "Gilded Dark Oak End Table Cabinet",
 
@@ -131,6 +140,7 @@
   "block.tsa.mangrove_chair_with_cushion": "Mangrove Chair with Cushion",
   "block.tsa.birch_chair_with_cushion": "Birch Chair with Cushion",
   "block.tsa.darkoak_chair_with_cushion": "Dark Oak Chair with Cushion",
+  "block.tsa.paleoak_chair_with_cushion": "Pale Oak Chair with Cushion",
 
   "block.tsa.acacia_chair": "Acacia Chair",
   "block.tsa.oak_chair": "Oak Chair",
@@ -143,6 +153,7 @@
   "block.tsa.mangrove_chair": "Mangrove Chair",
   "block.tsa.birch_chair": "Birch Chair",
   "block.tsa.darkoak_chair": "Dark Oak Chair",
+  "block.tsa.paleoak_chair": "Pale Oak Chair",
 
   "block.tsa.small_acacia_table": "Small Acacia Table",
   "block.tsa.small_oak_table": "Small Oak Table",
@@ -155,6 +166,7 @@
   "block.tsa.small_mangrove_table": "Small Mangrove Table",
   "block.tsa.small_birch_table": "Small Birch Table",
   "block.tsa.small_darkoak_table": "Small Dark Oak Table",
+  "block.tsa.small_paleoak_table": "Small Pale Oak Table",
 
   "block.tsa.acacia_cabinet": "Acacia Cabinet",
   "block.tsa.oak_cabinet": "Oak Cabinet",
@@ -167,6 +179,7 @@
   "block.tsa.mangrove_cabinet": "Mangrove Cabinet",
   "block.tsa.birch_cabinet": "Birch Cabinet",
   "block.tsa.darkoak_cabinet": "Dark Oak Cabinet",
+  "block.tsa.paleoak_cabinet": "Pale Oak Cabinet",
 
   "block.tsa.large_acacia_cabinet": "Acacia Cabinet",
   "block.tsa.large_oak_cabinet": "Oak Cabinet",
@@ -179,6 +192,7 @@
   "block.tsa.large_mangrove_cabinet": "Mangrove Cabinet",
   "block.tsa.large_birch_cabinet": "Birch Cabinet",
   "block.tsa.large_darkoak_cabinet": "Dark Oak Cabinet",
+  "block.tsa.large_paleoak_cabinet": "Pale Oak Cabinet",
 
   "block.tsa.acacia_sidetable": "Acacia Side Table",
   "block.tsa.oak_sidetable": "Oak Side Table",
@@ -191,6 +205,7 @@
   "block.tsa.mangrove_sidetable": "Mangrove Side Table",
   "block.tsa.birch_sidetable": "Birch Side Table",
   "block.tsa.darkoak_sidetable": "Dark Oak Side Table",
+  "block.tsa.paleoak_sidetable": "Pale Oak Side Table",
 
   "block.tsa.acacia_shelf": "Acacia Shelf",
   "block.tsa.oak_shelf": "Oak Shelf",
@@ -203,6 +218,7 @@
   "block.tsa.mangrove_shelf": "Mangrove Shelf",
   "block.tsa.birch_shelf": "Birch Shelf",
   "block.tsa.darkoak_shelf": "Dark Oak Shelf",
+  "block.tsa.paleoak_shelf": "Pale Oak Shelf",
 
   "block.tsa.slim_acacia_shelf": "Slim Acacia Shelf",
   "block.tsa.slim_oak_shelf": "Slim Oak Shelf",
@@ -215,6 +231,7 @@
   "block.tsa.slim_mangrove_shelf": "Slim Mangrove Shelf",
   "block.tsa.slim_birch_shelf": "Slim Birch Shelf",
   "block.tsa.slim_darkoak_shelf": "Slim Dark Oak Shelf",
+  "block.tsa.slim_paleoak_shelf": "Slim Pale Oak Shelf",
 
   "block.tsa.iron_acacia_wall_shelf": "Iron Acacia Wall Shelf",
   "block.tsa.iron_oak_wall_shelf": "Iron Oak Wall Shelf",
@@ -227,6 +244,7 @@
   "block.tsa.iron_mangrove_wall_shelf": "Iron Mangrove Wall Shelf",
   "block.tsa.iron_birch_wall_shelf": "Iron Birch Wall Shelf",
   "block.tsa.iron_darkoak_wall_shelf": "Iron Dark Oak Wall Shelf",
+  "block.tsa.iron_paleoak_wall_shelf": "Iron Pale Oak Wall Shelf",
 
   "block.tsa.wooden_acacia_wall_shelf": "Wooden Acacia Wall Shelf",
   "block.tsa.wooden_oak_wall_shelf": "Wooden Oak Wall Shelf",
@@ -239,6 +257,7 @@
   "block.tsa.wooden_mangrove_wall_shelf": "Wooden Mangrove Wall Shelf",
   "block.tsa.wooden_birch_wall_shelf": "Wooden Birch Wall Shelf",
   "block.tsa.wooden_darkoak_wall_shelf": "Wooden Dark Oak Wall Shelf",
+  "block.tsa.wooden_paleoak_wall_shelf": "Wooden Pale Oak Wall Shelf",
 
   "block.tsa.acacia_park_bench": "Acacia Park Bench",
   "block.tsa.oak_park_bench": "Oak Park Bench",
@@ -251,6 +270,7 @@
   "block.tsa.mangrove_park_bench": "Mangrove Park Bench",
   "block.tsa.birch_park_bench": "Birch Park Bench",
   "block.tsa.darkoak_park_bench": "Dark Oak Park Bench",
+  "block.tsa.paleoak_park_bench": "Pale Oak Park Bench",
 
   "block.tsa.wooden_acacia_picnic_table": "Wooden Acacia Picnic Table",
   "block.tsa.wooden_oak_picnic_table": "Wooden Oak Picnic Table",
@@ -263,6 +283,7 @@
   "block.tsa.wooden_mangrove_picnic_table": "Wooden Mangrove Picnic Table",
   "block.tsa.wooden_birch_picnic_table": "Wooden Birch Picnic Table",
   "block.tsa.wooden_darkoak_picnic_table": "Wooden Dark Oak Picnic Table",
+  "block.tsa.wooden_paleoak_picnic_table": "Wooden Pale Oak Picnic Table",
 
   "block.tsa.pile_of_iron_ingots": "Pile of Iron Ingots",
   "block.tsa.pile_of_gold_ingots": "Pile of Gold Ingots",
@@ -293,6 +314,7 @@
   "item.tsa.cut_mangrove_planks": "Cut Mangrove Planks",
   "item.tsa.cut_birch_planks": "Cut Birch Planks",
   "item.tsa.cut_darkoak_planks": "Cut Dark Oak Planks",
+  "item.tsa.cut_paleoak_planks": "Cut Pale Oak Planks",
 
   "item.tsa.acacia_bench": "Acacia Iron Bench",
   "item.tsa.oak_bench": "Oak Iron Bench",
@@ -305,6 +327,7 @@
   "item.tsa.mangrove_bench": "Mangrove Iron Bench",
   "item.tsa.birch_bench": "Birch Iron Bench",
   "item.tsa.darkoak_bench": "Dark Oak Iron Bench",
+  "item.tsa.paleoak_bench": "Pale Oak Iron Bench",
 
   "item.tsa.wooden_acacia_bench": "Wooden Acacia Bench",
   "item.tsa.wooden_oak_bench": "Wooden Oak Bench",
@@ -317,6 +340,7 @@
   "item.tsa.wooden_mangrove_bench": "Wooden Mangrove Bench",
   "item.tsa.wooden_birch_bench": "Wooden Birch Bench",
   "item.tsa.wooden_darkoak_bench": "Wooden Dark Oak Bench",
+  "item.tsa.wooden_paleoak_bench": "Wooden Pale Oak Bench",
 
   "item.tsa.acacia_dresser": "Acacia Dresser",
   "item.tsa.oak_dresser": "Oak Dresser",
@@ -329,18 +353,20 @@
   "item.tsa.mangrove_dresser": "Mangrove Dresser",
   "item.tsa.birch_dresser": "Birch Dresser",
   "item.tsa.darkoak_dresser": "Dark Oak Dresser",
+  "item.tsa.paleoak_dresser": "Pale Oak Dresser",
 
-  "item.tsa.small_acacia_dresser": "Acacia Dresser",
-  "item.tsa.small_oak_dresser": "Oak Dresser",
-  "item.tsa.small_spruce_dresser": "Spruce Dresser",
-  "item.tsa.small_jungle_dresser": "Jungle Dresser",
-  "item.tsa.small_crimson_dresser": "Crimson Dresser",
-  "item.tsa.small_warped_dresser": "Warped Dresser",
-  "item.tsa.small_cherry_dresser": "Cherry Dresser",
-  "item.tsa.small_bamboo_dresser": "Bamboo Dresser",
-  "item.tsa.small_mangrove_dresser": "Mangrove Dresser",
-  "item.tsa.small_birch_dresser": "Birch Dresser",
-  "item.tsa.small_darkoak_dresser": "Dark Oak Dresser",
+  "item.tsa.small_acacia_dresser": "Small Acacia Dresser",
+  "item.tsa.small_oak_dresser": "Small Oak Dresser",
+  "item.tsa.small_spruce_dresser": "Small Spruce Dresser",
+  "item.tsa.small_jungle_dresser": "Small Jungle Dresser",
+  "item.tsa.small_crimson_dresser": "Small Crimson Dresser",
+  "item.tsa.small_warped_dresser": "Small Warped Dresser",
+  "item.tsa.small_cherry_dresser": "Small Cherry Dresser",
+  "item.tsa.small_bamboo_dresser": "Small Bamboo Dresser",
+  "item.tsa.small_mangrove_dresser": "Small Mangrove Dresser",
+  "item.tsa.small_birch_dresser": "Small Birch Dresser",
+  "item.tsa.small_darkoak_dresser": "Small Dark Oak Dresser",
+  "item.tsa.small_paleoak_dresser": "Small Pale Oak Dresser",
 
   "item.tsa.darkoak_secretary_desk": "Dark Oak Secretary Desk",
   "item.tsa.large_darkoak_secretary_desk": "Large Dark Oak Secretary Desk",
@@ -357,6 +383,7 @@
   "item.tsa.mangrove_table_center_post": "Mangrove Centerpiece Table",
   "item.tsa.birch_table_center_post": "Birch Centerpiece Table",
   "item.tsa.darkoak_table_center_post": "Dark Oak Centerpiece Table",
+  "item.tsa.paleoak_table_center_post": "Pale Oak Centerpiece Table",
 
   "item.tsa.darkoak_table_gold_center_post": "Gilded Dark Oak Centerpiece Table",
 
@@ -371,6 +398,7 @@
   "item.tsa.mangrove_table": "Mangrove Table",
   "item.tsa.birch_table": "Birch Table",
   "item.tsa.darkoak_table": "Dark Oak Table",
+  "item.tsa.paleoak_table": "Pale Oak Table",
 
   "item.tsa.acacia_end_table_cabinet": "Acacia End Table Cabinet",
   "item.tsa.oak_end_table_cabinet": "Oak End Table Cabinet",
@@ -383,6 +411,7 @@
   "item.tsa.mangrove_end_table_cabinet": "Mangrove End Table Cabinet",
   "item.tsa.birch_end_table_cabinet": "Birch End Table Cabinet",
   "item.tsa.darkoak_end_table_cabinet": "Dark Oak End Table Cabinet",
+  "item.tsa.paleoak_end_table_cabinet": "Pale Oak End Table Cabinet",
 
   "item.tsa.darkoak_end_table_cabinet_gilded": "Gilded Dark Oak End Table Cabinet",
 
@@ -397,6 +426,7 @@
   "item.tsa.mangrove_chair_with_cushion": "Mangrove Chair with Cushion",
   "item.tsa.birch_chair_with_cushion": "Birch Chair with Cushion",
   "item.tsa.darkoak_chair_with_cushion": "Dark Oak Chair with Cushion",
+  "item.tsa.paleoak_chair_with_cushion": "Pale Oak Chair with Cushion",
 
   "item.tsa.acacia_chair": "Acacia Chair",
   "item.tsa.oak_chair": "Oak Chair",
@@ -409,6 +439,7 @@
   "item.tsa.mangrove_chair": "Mangrove Chair",
   "item.tsa.birch_chair": "Birch Chair",
   "item.tsa.darkoak_chair": "Dark Oak Chair",
+  "item.tsa.paleoak_chair": "Pale Oak Chair",
 
   "item.tsa.small_acacia_table": "Small Acacia Table",
   "item.tsa.small_oak_table": "Small Oak Table",
@@ -420,7 +451,7 @@
   "item.tsa.small_bamboo_table": "Small Bamboo Table",
   "item.tsa.small_mangrove_table": "Small Mangrove Table",
   "item.tsa.small_birch_table": "Small Birch Table",
-  "item.tsa.small_darkoak_table": "Small Dark Oak Table",
+  "item.tsa.small_paleoak_table": "Small Pale Oak Table",
 
   "item.tsa.acacia_cabinet": "Acacia Cabinet",
   "item.tsa.oak_cabinet": "Oak Cabinet",
@@ -433,6 +464,7 @@
   "item.tsa.mangrove_cabinet": "Mangrove Cabinet",
   "item.tsa.birch_cabinet": "Birch Cabinet",
   "item.tsa.darkoak_cabinet": "Dark Oak Cabinet",
+  "item.tsa.paleoak_cabinet": "Pale Oak Cabinet",
 
   "item.tsa.large_acacia_cabinet": "Acacia Cabinet",
   "item.tsa.large_oak_cabinet": "Oak Cabinet",
@@ -444,7 +476,7 @@
   "item.tsa.large_bamboo_cabinet": "Bamboo Cabinet",
   "item.tsa.large_mangrove_cabinet": "Mangrove Cabinet",
   "item.tsa.large_birch_cabinet": "Birch Cabinet",
-  "item.tsa.large_darkoak_cabinet": "Dark Oak Cabinet",
+  "item.tsa.large_paleoak_cabinet": "Pale Oak Cabinet",
 
   "item.tsa.acacia_sidetable": "Acacia Side Table",
   "item.tsa.oak_sidetable": "Oak Side Table",
@@ -457,6 +489,7 @@
   "item.tsa.mangrove_sidetable": "Mangrove Side Table",
   "item.tsa.birch_sidetable": "Birch Side Table",
   "item.tsa.darkoak_sidetable": "Dark Oak Side Table",
+  "item.tsa.paleoak_sidetable": "Pale Oak Side Table",
 
   "item.tsa.acacia_shelf": "Acacia Shelf",
   "item.tsa.oak_shelf": "Oak Shelf",
@@ -469,6 +502,7 @@
   "item.tsa.mangrove_shelf": "Mangrove Shelf",
   "item.tsa.birch_shelf": "Birch Shelf",
   "item.tsa.darkoak_shelf": "Dark Oak Shelf",
+  "item.tsa.paleoak_shelf": "Pale Oak Shelf",
 
   "item.tsa.slim_acacia_shelf": "Slim Acacia Shelf",
   "item.tsa.slim_oak_shelf": "Slim Oak Shelf",
@@ -481,6 +515,7 @@
   "item.tsa.slim_mangrove_shelf": "Slim Mangrove Shelf",
   "item.tsa.slim_birch_shelf": "Slim Birch Shelf",
   "item.tsa.slim_darkoak_shelf": "Slim Dark Oak Shelf",
+  "item.tsa.slim_paleoak_shelf": "Slim Pale Oak Shelf",
 
   "item.tsa.iron_acacia_wall_shelf": "Iron Acacia Wall Shelf",
   "item.tsa.iron_oak_wall_shelf": "Iron Oak Wall Shelf",
@@ -493,6 +528,7 @@
   "item.tsa.iron_mangrove_wall_shelf": "Iron Mangrove Wall Shelf",
   "item.tsa.iron_birch_wall_shelf": "Iron Birch Wall Shelf",
   "item.tsa.iron_darkoak_wall_shelf": "Iron Dark Oak Wall Shelf",
+  "item.tsa.iron_paleoak_wall_shelf": "Iron Pale Oak Wall Shelf",
 
   "item.tsa.wooden_acacia_wall_shelf": "Wooden Acacia Wall Shelf",
   "item.tsa.wooden_oak_wall_shelf": "Wooden Oak Wall Shelf",
@@ -505,6 +541,7 @@
   "item.tsa.wooden_mangrove_wall_shelf": "Wooden Mangrove Wall Shelf",
   "item.tsa.wooden_birch_wall_shelf": "Wooden Birch Wall Shelf",
   "item.tsa.wooden_darkoak_wall_shelf": "Wooden Dark Oak Wall Shelf",
+  "item.tsa.wooden_paleoak_wall_shelf": "Wooden Pale Oak Wall Shelf",
 
   "item.tsa.acacia_park_bench": "Acacia Park Bench",
   "item.tsa.oak_park_bench": "Oak Park Bench",
@@ -517,6 +554,7 @@
   "item.tsa.mangrove_park_bench": "Mangrove Park Bench",
   "item.tsa.birch_park_bench": "Birch Park Bench",
   "item.tsa.darkoak_park_bench": "Dark Oak Park Bench",
+  "item.tsa.paleoak_park_bench": "Pale Oak Park Bench",
 
   "item.tsa.wooden_acacia_picnic_table": "Wooden Acacia Picnic Table",
   "item.tsa.wooden_oak_picnic_table": "Wooden Oak Picnic Table",
@@ -529,6 +567,7 @@
   "item.tsa.wooden_mangrove_picnic_table": "Wooden Mangrove Picnic Table",
   "item.tsa.wooden_birch_picnic_table": "Wooden Birch Picnic Table",
   "item.tsa.wooden_darkoak_picnic_table": "Wooden Dark Oak Picnic Table",
+  "item.tsa.wooden_paleoak_picnic_table": "Wooden Pale Oak Picnic Table",
 
   "item.tsa.large_darkoak_cabinet_gilded": "Large Gilded Dark Oak Cabinet",
   "item.tsa.small_darkoak_dresser_gilded": "Small Gilded Dark Oak Dresser",

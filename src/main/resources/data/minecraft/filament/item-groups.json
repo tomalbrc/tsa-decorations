@@ -4,6 +4,10 @@
     "item": "tsa:darkoak_bench"
   },
   {
+    "id": "tsa:paleoak_furniture",
+    "item": "tsa:paleoak_bench"
+  },
+  {
     "id": "tsa:jungle_furniture",
     "item": "tsa:jungle_bench"
   },

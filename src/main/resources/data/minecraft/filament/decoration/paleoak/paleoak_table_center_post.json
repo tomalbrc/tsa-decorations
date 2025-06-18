@@ -1,0 +1,22 @@
+{
+  "id": "tsa:paleoak_table_center_post",
+  "group": "tsa:paleoak_furniture",
+  "blockTags": ["shulker_boxes"],
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/tables/paleoak_table_center_post"
+    }
+  },
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true,
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [0,0,0],
+      "size": [1,1,1]
+    }
+  ]
+}

@@ -95,7 +95,7 @@ public class CarpentryGui extends SimpleGui {
         List<CarpentryRecipe> list = new ObjectArrayList<>();
 
         CraftingInput input = CraftingInput.of(3, 1, List.of(this.container.getItem(0), this.container.getItem(1), this.container.getItem(2)));
-        List<RecipeHolder<CarpentryRecipe>> recipes = this.player.server.getRecipeManager().getRecipes().stream().filter(x -> x.value() instanceof CarpentryRecipe carpentryRecipe && carpentryRecipe.matches(input, player.serverLevel())).map(x -> (RecipeHolder<CarpentryRecipe>)x).toList();
+        List<RecipeHolder<CarpentryRecipe>> recipes = this.player.getServer().getRecipeManager().getRecipes().stream().filter(x -> x.value() instanceof CarpentryRecipe carpentryRecipe && carpentryRecipe.matches(input, player.level())).map(x -> (RecipeHolder<CarpentryRecipe>)x).toList();
 
         // TODO: check for known recipes
 

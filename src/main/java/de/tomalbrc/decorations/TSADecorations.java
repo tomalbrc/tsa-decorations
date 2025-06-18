@@ -37,9 +37,7 @@ public class TSADecorations implements ModInitializer {
             PolymerResourcePackUtils.markAsRequired();
 
             if (FabricLoader.getInstance().isModLoaded("polydex")) {
-                ServerLifecycleEvents.SERVER_STARTED.register((server) -> {
-                    PolydexCompat.init(server);
-                });
+                ServerLifecycleEvents.SERVER_STARTED.register(PolydexCompat::init);
             }
 
         } catch (Exception e) {

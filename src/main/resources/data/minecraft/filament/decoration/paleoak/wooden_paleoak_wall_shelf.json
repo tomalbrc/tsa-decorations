@@ -1,0 +1,31 @@
+{
+  "id": "tsa:wooden_paleoak_wall_shelf",
+  "group": "tsa:paleoak_furniture",
+  "blockTags": ["shulker_boxes"],
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/shelves/wooden_paleoak_wall_shelf"
+    }
+  },
+  "properties": {
+    "placement": {
+      "wall": true
+    },
+    "destroyTime": 2,
+    "requiresTool": false
+  },
+  "blocks": [
+    {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ]
+    }
+  ]
+}

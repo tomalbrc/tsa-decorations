@@ -1,8 +1,8 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/furniture/shelves/small_darkoak_shelf",
-		"particle": "item/furniture/shelves/small_darkoak_shelf"
+		"0": "item/furniture/shelves/iron_paleoak_wall_shelf",
+		"particle": "item/furniture/shelves/iron_paleoak_wall_shelf"
 	},
 	"elements": [
 		{

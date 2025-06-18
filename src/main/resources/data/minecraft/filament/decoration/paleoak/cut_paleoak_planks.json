@@ -1,0 +1,14 @@
+{
+  "id": "tsa:cut_paleoak_planks",
+  "group": "tsa:paleoak_furniture",
+  "blockTags": ["shulker_boxes"],
+  "itemResource": {
+    "models": {
+      "default": "minecraft:item/custom/furniture/misc/cut_paleoak_planks"
+    }
+  },
+  "properties": {
+    "rotate": true,
+    "rotateSmooth": true
+  }
+}
