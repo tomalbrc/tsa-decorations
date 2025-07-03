@@ -1,0 +1,9 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": "minecraft:pale_oak_planks",
+    "ingredient": "minecraft:pale_oak_planks",
+    "result": {
+        "id": "tsa:cut_pale_oak_planks",
+        "count": 1
+    }
+}

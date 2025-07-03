@@ -1,0 +1,10 @@
+{
+    "type": "tsa:carpentry_recipe",
+    "baseIngredient": "tsa:cut_pale_oak_planks",
+    "ingredient": "tsa:nails",
+    "trimIngredient": "minecraft:iron_block",
+    "result": {
+        "id": "tsa:pale_oak_bench",
+        "count": 1
+    }
+}
