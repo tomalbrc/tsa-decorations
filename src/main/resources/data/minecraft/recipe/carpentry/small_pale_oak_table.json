@@ -1,10 +1,10 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": "tsa:cut_pale_oak_planks",
+    "baseIngredient": "tsa:cut_paleoak_planks",
     "ingredient": "tsa:nails",
     "trimIngredient": "minecraft:glass",
     "result": {
-        "id": "tsa:small_pale_oak_table",
+        "id": "tsa:small_paleoak_table",
         "count": 1
     }
 }

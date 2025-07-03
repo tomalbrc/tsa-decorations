@@ -1,9 +1,9 @@
 {
     "type": "tsa:carpentry_recipe",
-    "baseIngredient": "tsa:cut_pale_oak_planks",
+    "baseIngredient": "tsa:cut_paleoak_planks",
     "ingredient": "tsa:nails",
     "result": {
-        "id": "tsa:pale_oak_shelf",
+        "id": "tsa:paleoak_shelf",
         "count": 1
     }
 }
