@@ -1,7 +1,7 @@
 {
     "type": "tsa:carpentry_recipe",
     "baseIngredient": "minecraft:iron_ingot",
-    "ingredient": "minecraft:netherite_scrap",
+    "ingredient": "minecraft:iron_ingot",
     "result": {
         "id": "tsa:nails",
         "count": 2
