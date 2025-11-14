@@ -4,7 +4,7 @@
     "group": "nails",
     "ingredients": [
         "minecraft:iron_ingot",
-        "minecraft:iron_ingot"
+        "minecraft:iron_nugget"
     ],
     "result": {
         "id": "tsa:nails",
