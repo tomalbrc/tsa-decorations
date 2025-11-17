@@ -46,7 +46,7 @@ public class CarpentryPage implements PolydexPage {
 
     @Override
     public ItemStack entryIcon(@Nullable PolydexEntry polydexEntry, ServerPlayer serverPlayerEntity) {
-        return ItemGroupRegistry.TAB_GROUPS.get(decorationData.itemGroup()).getIconItem();
+        return ItemGroupRegistry.TAB_GROUPS.get(decorationData.group()).getIconItem();
     }
 
     @Override
@@ -86,7 +86,7 @@ public class CarpentryPage implements PolydexPage {
     public boolean isOwner(MinecraftServer minecraftServer, PolydexEntry polydexEntry) {
         ItemStack itemStack = (ItemStack) polydexEntry.stack().getBacking();
         if (itemStack.getItem() instanceof DecorationItem decorationItem) {
-            return Objects.equals(decorationItem.getDecorationData().itemGroup(), decorationData.itemGroup());
+            return Objects.equals(decorationItem.getDecorationData().group(), decorationData.group());
         }
         return false;
     }

@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.6-SNAPSHOT'
+    id 'fabric-loom' version '1.11-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -39,7 +39,9 @@ dependencies {
     modImplementation ("eu.pb4:polymer-resource-pack:${project.polymer_version}")
     modImplementation ("eu.pb4:polymer-autohost:${project.polymer_version}")
 
-    modImplementation ("de.tomalbrc:filament:${project.filament_version}")
+    modImplementation ("de.tomalbrc:filament:${project.filament_version}") {
+        transitive = false
+    }
 
     modCompileOnly "maven.modrinth:polydex:1.2.4+1.21.1"
 }

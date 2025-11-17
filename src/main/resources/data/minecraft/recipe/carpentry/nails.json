@@ -4,7 +4,7 @@
         "item": "minecraft:iron_ingot"
     },
     "ingredient": {
-        "item": "minecraft:iron_ingot"
+        "item": "minecraft:iron_nugget"
     },
     "result": {
         "id": "tsa:nails",
