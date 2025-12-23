@@ -7,23 +7,24 @@ import eu.pb4.polydex.api.v1.recipe.PolydexEntry;
 import eu.pb4.polydex.api.v1.recipe.PolydexIngredient;
 import eu.pb4.polydex.api.v1.recipe.PolydexPage;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeHolder;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
-import java.util.stream.Collectors;
 
 public class PolydexCompat {
-    public static final PolydexCategory CATEGORY = PolydexCategory.of(ResourceLocation.fromNamespaceAndPath("tsa", "carpentry"));
+    public static final PolydexCategory CATEGORY = PolydexCategory.of(Identifier.fromNamespaceAndPath("tsa", "carpentry"));
 
     public static void init(MinecraftServer server) {
-        List<RecipeHolder<CarpentryRecipe>> recipes = server.getRecipeManager().getRecipes().stream().filter(x -> x.value() instanceof CarpentryRecipe).map(x -> (RecipeHolder<CarpentryRecipe>)x).toList();
-        for (RecipeHolder<CarpentryRecipe> recipe : recipes) {
+        // noinspection unchecked
+        List<RecipeHolder<@NotNull CarpentryRecipe>> recipes = server.getRecipeManager().getRecipes().stream().filter(x -> x.value() instanceof CarpentryRecipe).map(x -> (RecipeHolder<@NotNull CarpentryRecipe>)x).toList();
+        for (RecipeHolder<@NotNull CarpentryRecipe> recipe : recipes) {
             ItemStack res = recipe.value().getResult();
             if (res.getItem() instanceof DecorationItem decorationItem) {
                 add(decorationItem);
@@ -59,7 +60,7 @@ public class PolydexCompat {
         }
     }
 
-    public static final Map<ResourceLocation, RecipeInfo> INFO_MAP = new Object2ObjectOpenHashMap<>();
+    public static final Map<Identifier, RecipeInfo> INFO_MAP = new Object2ObjectOpenHashMap<>();
 
     public record RecipeInfo(ItemStack itemStack, List<PolydexIngredient<?>> ingredients) {}
 }

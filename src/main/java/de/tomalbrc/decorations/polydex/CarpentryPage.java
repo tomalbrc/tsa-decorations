@@ -9,7 +9,7 @@ import eu.pb4.sgui.api.elements.GuiElementBuilder;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;
@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class CarpentryPage implements PolydexPage {
-    public static final ItemStack TYPE_ICON = new GuiElementBuilder(BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("tsa", "carpentry_table")).orElseThrow().value()).setName(Component.translatable("polydex.tsa.carpentry.recipes").withStyle(ChatFormatting.GOLD)).asStack();
+    public static final ItemStack TYPE_ICON = new GuiElementBuilder(BuiltInRegistries.ITEM.get(Identifier.fromNamespaceAndPath("tsa", "carpentry_table")).orElseThrow().value()).setName(Component.translatable("polydex.tsa.carpentry.recipes").withStyle(ChatFormatting.GOLD)).asStack();
 
     private List<PolydexIngredient<?>> ingredients;
 
@@ -35,7 +35,7 @@ public class CarpentryPage implements PolydexPage {
     }
 
     @Override
-    public ResourceLocation identifier() {
+    public Identifier identifier() {
         return this.decorationData.id();
     }
 

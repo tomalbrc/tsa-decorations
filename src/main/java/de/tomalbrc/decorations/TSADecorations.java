@@ -12,7 +12,7 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 
 public class TSADecorations implements ModInitializer {
@@ -24,10 +24,10 @@ public class TSADecorations implements ModInitializer {
     @Override
     public void onInitialize() {
         try {
-            BehaviourRegistry.registerBehaviour(ResourceLocation.fromNamespaceAndPath(COMMON_ID, "carpentry"), CarpentryBehaviour.class);
+            BehaviourRegistry.registerBehaviour(Identifier.fromNamespaceAndPath(COMMON_ID, "carpentry"), CarpentryBehaviour.class);
 
-            Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, ResourceLocation.fromNamespaceAndPath(COMMON_ID, "carpentry_recipe"), CarpentryRecipe.CarpentryRecipeSerializer.INSTANCE);
-            Registry.register(BuiltInRegistries.RECIPE_TYPE, ResourceLocation.fromNamespaceAndPath(COMMON_ID, "carpentry_recipe"), CarpentryRecipe.Type.INSTANCE);
+            Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, Identifier.fromNamespaceAndPath(COMMON_ID, "carpentry_recipe"), CarpentryRecipe.CarpentryRecipeSerializer.INSTANCE);
+            Registry.register(BuiltInRegistries.RECIPE_TYPE, Identifier.fromNamespaceAndPath(COMMON_ID, "carpentry_recipe"), CarpentryRecipe.Type.INSTANCE);
 
             FilamentLoader.loadModels(MOD_ID, COMMON_ID);
             FilamentLoader.loadItems(MOD_ID);
