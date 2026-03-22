@@ -84,8 +84,7 @@ public class CarpentryPage implements PolydexPage {
 
     @Override
     public boolean isOwner(MinecraftServer minecraftServer, PolydexEntry polydexEntry) {
-        ItemStack itemStack = (ItemStack) polydexEntry.stack().getBacking();
-        if (itemStack.getItem() instanceof DecorationItem decorationItem) {
+        if (polydexEntry.stack().getBacking() instanceof ItemStack itemStack && itemStack.getItem() instanceof DecorationItem decorationItem) {
             return Objects.equals(decorationItem.getDecorationData().group(), decorationData.group());
         }
         return false;
