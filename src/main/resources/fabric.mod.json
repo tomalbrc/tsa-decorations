@@ -19,6 +19,6 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "minecraft": ">=26.1",
-    "filament": ">=1.4.0"
+    "filament": ">=1.4.4"
   }
 }
