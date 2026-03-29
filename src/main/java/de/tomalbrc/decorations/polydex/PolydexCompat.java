@@ -25,7 +25,7 @@ public class PolydexCompat {
         // noinspection unchecked
         List<RecipeHolder<@NotNull CarpentryRecipe>> recipes = server.getRecipeManager().getRecipes().stream().filter(x -> x.value() instanceof CarpentryRecipe).map(x -> (RecipeHolder<@NotNull CarpentryRecipe>)x).toList();
         for (RecipeHolder<@NotNull CarpentryRecipe> recipe : recipes) {
-            ItemStack res = recipe.value().getResult();
+            ItemStack res = recipe.value().getResult().create();
             if (res.getItem() instanceof DecorationItem decorationItem) {
                 add(decorationItem);
 

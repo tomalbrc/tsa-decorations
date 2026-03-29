@@ -13,6 +13,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;
+import net.minecraft.world.item.crafting.RecipeSerializer;
 import org.slf4j.Logger;
 
 public class TSADecorations implements ModInitializer {
@@ -26,7 +27,7 @@ public class TSADecorations implements ModInitializer {
         try {
             BehaviourRegistry.registerBehaviour(Identifier.fromNamespaceAndPath(COMMON_ID, "carpentry"), CarpentryBehaviour.class);
 
-            Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, Identifier.fromNamespaceAndPath(COMMON_ID, "carpentry_recipe"), CarpentryRecipe.CarpentryRecipeSerializer.INSTANCE);
+            Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, Identifier.fromNamespaceAndPath(COMMON_ID, "carpentry_recipe"), new RecipeSerializer<>(CarpentryRecipe.CODEC, null));
             Registry.register(BuiltInRegistries.RECIPE_TYPE, Identifier.fromNamespaceAndPath(COMMON_ID, "carpentry_recipe"), CarpentryRecipe.Type.INSTANCE);
 
             FilamentLoader.loadModels(MOD_ID, COMMON_ID);

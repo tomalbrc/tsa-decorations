@@ -1,6 +1,7 @@
 package de.tomalbrc.decorations.carpentry;
 
-import eu.pb4.placeholders.api.TextParserUtils;
+import eu.pb4.placeholders.api.ParserContext;
+import eu.pb4.placeholders.api.parsers.TagParser;
 import eu.pb4.sgui.api.gui.SimpleGui;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.server.level.ServerPlayer;
@@ -31,6 +32,8 @@ public class CarpentryGui extends SimpleGui {
     @Nullable
     private CarpentryRecipe selectedRecipe;
 
+    private Runnable closeCB = null;
+
     private static final int WIDTH = 4;
     private static final int HEIGHT = 6;
 
@@ -51,7 +54,7 @@ public class CarpentryGui extends SimpleGui {
         int hidden = rows - (HEIGHT-1);
         float scrollProgress = Math.min(1.0f, Math.max(0.0f, this.scrollIndex / (float) hidden));
         String str = this.buildGuiTitle(column, row, hidden <= 0 ? -1 : scrollProgress);
-        this.setTitle(TextParserUtils.formatText(str));
+        this.setTitle(TagParser.createQuickTextWithSTF().parseComponent(str, ParserContext.of()));
     }
 
     public CarpentryGui(MenuType<?> type, ServerPlayer player, boolean manipulatePlayerSlots) {
@@ -68,12 +71,12 @@ public class CarpentryGui extends SimpleGui {
 
         BiFunction<Integer, Integer, Integer> f = (x, y) -> x + y*9;
 
-        this.setSlotRedirect(f.apply(0,1), this.baseSlot);
-        this.setSlotRedirect(f.apply(1,1), this.slot);
-        this.setSlotRedirect(f.apply(2,1), this.trimSlot);
-        this.setSlotRedirect(f.apply(1,4), this.resultSlot);
+        this.setSlot(f.apply(0,1), this.baseSlot);
+        this.setSlot(f.apply(1,1), this.slot);
+        this.setSlot(f.apply(2,1), this.trimSlot);
+        this.setSlot(f.apply(1,4), this.resultSlot);
 
-        this.setSlot(f.apply(8,0), ItemStack.EMPTY, (x,y,clickType) -> {
+        this.setSlot(f.apply(8,0), ItemStack.EMPTY, () -> {
             var newIndex = Math.max(0, this.scrollIndex-1);
             if (this.scrollIndex != newIndex) {
                 this.scrollIndex = newIndex;
@@ -81,7 +84,7 @@ public class CarpentryGui extends SimpleGui {
                 updateItemList(availableRecipes());
             }
         });
-        this.setSlot(f.apply(8,5), ItemStack.EMPTY, (x,y,clickType) -> {
+        this.setSlot(f.apply(8,5), ItemStack.EMPTY, () -> {
             var items = this.availableRecipes();
             if (items.size()-(this.scrollIndex*WIDTH) > WIDTH*HEIGHT) {
                 this.scrollIndex++;
@@ -100,7 +103,7 @@ public class CarpentryGui extends SimpleGui {
         // TODO: check for known recipes
 
         for (RecipeHolder<CarpentryRecipe> recipe : recipes) {
-            ItemStack res = recipe.value().getResult();
+            ItemStack res = recipe.value().getResult().create();
             if (res != null && !res.isEmpty()) {
                 list.add(recipe.value());
             }
@@ -127,10 +130,10 @@ public class CarpentryGui extends SimpleGui {
                 int index2 = row+column*9;
                 if (index < recipes.size()) {
                     CarpentryRecipe recipe = recipes.get(index);
-                    ItemStack item = recipe.getResult();
+                    ItemStack item = recipe.getResult().create();
                     final int finalColumn = column;
                     final int finalRow = row;
-                    this.setSlot(start+index2, item.copy(), (x, y, clickType) -> {
+                    this.setSlot(start+index2, item.copy(), () -> {
                         this.selX = finalRow;
                         this.selY = finalColumn;
 
@@ -147,7 +150,7 @@ public class CarpentryGui extends SimpleGui {
     }
 
     @Override
-    public void onClose() {
+    public void onRemoved() {
         this.player.getInventory().placeItemBackInInventory(this.player.containerMenu.getCarried());
         this.player.containerMenu.setCarried(ItemStack.EMPTY);
 
@@ -159,10 +162,10 @@ public class CarpentryGui extends SimpleGui {
 
         if (this.closeCB != null) {
             this.closeCB.run();
+            this.closeCB = null;
         }
     }
 
-    private Runnable closeCB = null;
     public boolean open(Runnable runnable) {
         closeCB = runnable;
         return this.open();
@@ -207,7 +210,7 @@ public class CarpentryGui extends SimpleGui {
             return;
 
         if (available.contains(this.selectedRecipe)) {
-            this.resultSlot.set(this.selectedRecipe.getResult().copy());
+            this.resultSlot.set(this.selectedRecipe.getResult().create());
         }
         updateItemList(available);
     }
