@@ -1,9 +1,12 @@
 package de.tomalbrc.decorations.carpentry;
 
-import eu.pb4.placeholders.api.ParserContext;
-import eu.pb4.placeholders.api.parsers.TagParser;
 import eu.pb4.sgui.api.gui.SimpleGui;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.FontDescription;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.network.chat.Style;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.SimpleContainer;
@@ -37,24 +40,53 @@ public class CarpentryGui extends SimpleGui {
     private static final int WIDTH = 4;
     private static final int HEIGHT = 6;
 
-    private String buildGuiTitle(int column, int row, float percentage) {
-        column = (WIDTH-1) - column;
+    private Component buildGuiTitleComponent(int column, int row, float percentage) {
+        // flip column
+        column = (WIDTH - 1) - column;
 
-        String colA = "(".repeat(column);
-        String colB = ")".repeat(column);
-        String rowStr = row < 6 && row >= 0 ? Character.toString(0xF700 | row) : "___>";
-        String scrollStr = percentage == -1 ? "\uF000" : Character.toString(0xF800 | (int)((0x1C)*percentage));
+        // shift cursor around
+        String colAraw = "(".repeat(column);
+        String colDraw = ")".repeat(column);
 
-        // cursed.
-        return String.format("<color:#ffffff><font:tsadecorations:ui><U<xx----%s%s%s____--%s<<xxxxxxxxx</font></color><lang:block.tsa.carpentry_table>", colA, rowStr, colB, scrollStr);
+        // row representation
+        String rowRaw = (row >= 0 && row < 6)
+                ? Character.toString((char)(0xF700 | row))
+                : "___>";
+
+        // scroll indicator
+        String scrollRaw = percentage == -1
+                ? "\uF000"
+                : Character.toString((char)(0xF800 | (int)((0x1C) * percentage)));
+
+        MutableComponent colA = Component.literal(colAraw);
+        MutableComponent rowComp = Component.literal(rowRaw);
+        MutableComponent colB = Component.literal(colDraw);
+        MutableComponent scrollComp = Component.literal(scrollRaw);
+
+        Style baseStyle = Style.EMPTY
+                .withColor(0xFF_FF_FF)
+                .withFont(new FontDescription.Resource(Identifier.fromNamespaceAndPath("tsadecorations", "ui")));
+
+        MutableComponent prefix = Component.literal("<U<xx----").setStyle(baseStyle);
+        MutableComponent middle = Component.literal("____--").setStyle(baseStyle);
+        MutableComponent suffix = Component.literal("<<xxxxxxxxx").setStyle(baseStyle);
+
+        return Component.empty()
+                .append(prefix)
+                .append(colA.setStyle(baseStyle))
+                .append(rowComp.setStyle(baseStyle))
+                .append(colB.setStyle(baseStyle))
+                .append(middle)
+                .append(scrollComp.setStyle(baseStyle))
+                .append(suffix);
     }
 
     private void updateTitle(int column, int row, List<CarpentryRecipe> recipes) {
         int rows = (int) Math.ceil(recipes.size()/WIDTH);
         int hidden = rows - (HEIGHT-1);
         float scrollProgress = Math.min(1.0f, Math.max(0.0f, this.scrollIndex / (float) hidden));
-        String str = this.buildGuiTitle(column, row, hidden <= 0 ? -1 : scrollProgress);
-        this.setTitle(TagParser.createQuickTextWithSTF().parseComponent(str, ParserContext.of()));
+
+        this.setTitle(this.buildGuiTitleComponent(column, row, hidden <= 0 ? -1 : scrollProgress));
     }
 
     public CarpentryGui(MenuType<?> type, ServerPlayer player, boolean manipulatePlayerSlots) {
