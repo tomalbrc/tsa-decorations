@@ -9,6 +9,7 @@ import net.minecraft.network.chat.Style;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.stats.Stats;
+import net.minecraft.util.Prediction;
 import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.ItemStack;
@@ -183,12 +184,12 @@ public class CarpentryGui extends SimpleGui {
 
     @Override
     public void onRemoved() {
-        this.player.getInventory().placeItemBackInInventory(this.player.containerMenu.getCarried());
+        this.player.getInventory().placeItemBackInInventory(this.player.containerMenu.getCarried(), Prediction.SERVER_ONLY);
         this.player.containerMenu.setCarried(ItemStack.EMPTY);
 
         for (int i = 0; i < this.container.getContainerSize()-1; i++) {
             if (!this.container.getItem(i).isEmpty())
-                this.player.getInventory().placeItemBackInInventory(this.container.removeItemNoUpdate(i));
+                this.player.getInventory().placeItemBackInInventory(this.container.removeItemNoUpdate(i), Prediction.SERVER_ONLY);
         }
         this.container.removeAllItems();
 

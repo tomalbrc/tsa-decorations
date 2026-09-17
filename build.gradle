@@ -21,9 +21,8 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
-    maven { url 'https://maven.blamejared.com' }
-
     mavenLocal()
+    maven { url 'https://maven.blamejared.com' }
 }
 
 dependencies {
@@ -39,7 +38,7 @@ dependencies {
 
     implementation ("de.tomalbrc:filament:${project.filament_version}")
 
-    compileOnly "maven.modrinth:polydex:1.9.2+26.1-rc-3"
+    compileOnly("eu.pb4:polydex:1.11.0+26.3-rc-1")
 }
 
 processResources {

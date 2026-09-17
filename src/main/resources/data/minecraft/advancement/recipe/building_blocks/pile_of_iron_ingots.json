@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:pile_of_iron_ingots"
+        "recipes": "minecraft:pile_of_iron_ingots"
       }
     }
   },

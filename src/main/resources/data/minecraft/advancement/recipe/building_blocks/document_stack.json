@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:document_stack"
+        "recipes": "minecraft:document_stack"
       }
     }
   },

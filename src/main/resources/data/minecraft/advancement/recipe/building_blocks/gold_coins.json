@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:scattered_gold_coins"
+        "recipes": "minecraft:scattered_gold_coins"
       }
     },
     "has_gold_nugget": {

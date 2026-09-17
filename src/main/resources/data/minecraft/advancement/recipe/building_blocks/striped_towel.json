@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:striped_towel"
+        "recipes": "minecraft:striped_towel"
       }
     },
     "has_white_wool": {

@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:carpentry_table"
+        "recipes": "minecraft:carpentry_table"
       }
     },
     "unlock_right_away": {
